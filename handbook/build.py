@@ -503,6 +503,11 @@ def postprocess(soup: BeautifulSoup):
         if not h.get("id"):
             h["id"] = f"sec-{n}"
 
+    # tables written with an empty Markdown header row (| | |) render without a header
+    for thead in soup.find_all("thead"):
+        if all(not th.get_text(strip=True) for th in thead.find_all("th")):
+            thead.decompose()
+
     # wide tables get a class so CSS can shrink the font
     for t in soup.find_all("table"):
         if "result" in (t.get("class") or []):

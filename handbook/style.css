@@ -336,3 +336,5 @@ pre.code { orphans: 4; widows: 4; }
 table.result.wide5 { font-size: 7.2pt; }
 table.result.wide7 { font-size: 6.4pt; }
 table.result.wide7 th, table.result.wide7 td { padding: 0.6mm 1.3mm; }
+/* trend cards: first column as a label */
+.box-concept table td:first-child { width: 30mm; font-weight: 600; color: #1a3a6b; background: #f3f7fd; }
