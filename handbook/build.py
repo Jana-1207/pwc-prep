@@ -9,7 +9,8 @@ Custom syntax (on top of normal Markdown)
 ::: kind Optional title           A styled box. Kinds: explain, trap, tip, pwc, extension,
 ...markdown...                    prereq, analogy, remember, note, project, coverage,
 :::                               practice, answers, questions, summary, checklist,
-                                  example, concept, source, compare. Boxes can nest.
+                                  example, concept, source, compare, pattern, linebyline,
+                                  plain, covmap, covcheck, glossary. Boxes can nest.
 
 Q: question text                  An interview question with its model answer. The answer
 A: answer text                    runs until the next "Q:", a heading, or a box fence.
@@ -25,10 +26,17 @@ error is shown).  A run block that fails unexpectedly stops the build.
 [DEFINITION] [WHY] [SCENARIO] ... Coloured label pills (see LABELS).
 - [ ] item                        Checklist item with an empty tick box.
 
+Layout
+------
+Every session (h2) starts on a new page. After rendering, the build looks for sessions whose
+last page holds only a few lines and lets the next session start on that page instead
+(class "flow"), re-rendering until the layout settles. Module summaries keep their own page.
+
 Usage
 -----
     python3 build.py              # full build (needs PostgreSQL, see scripts/start_postgres.sh)
     python3 build.py --html-only  # stop after writing build/handbook.html
+    python3 build.py --no-sql     # skip running SQL (layout drafts only; outputs are omitted)
 """
 from __future__ import annotations
 
@@ -86,6 +94,8 @@ BOX_TITLES = {
     "linebyline": "Line by Line",
     "plain": "",
     "covmap": "",
+    "glossary": "",
+    "covcheck": "",
 }
 
 LABELS = [
@@ -185,8 +195,9 @@ class SqlRunner:
 
     def run(self, sql: str, keep: bool, expect_error: bool):
         self.blocks_run += 1
-        explicit_tx = re.search(r"^\s*(BEGIN|COMMIT|ROLLBACK|START\s+TRANSACTION|SAVEPOINT)\b",
-                                sql, re.I | re.M) is not None
+        # transaction-control statements (a PL/pgSQL "BEGIN" inside a function body has no semicolon)
+        explicit_tx = re.search(r"^\s*(BEGIN\s*;|BEGIN\s+(ISOLATION|TRANSACTION|WORK)\b|COMMIT\b|ROLLBACK\b|"
+                                r"START\s+TRANSACTION\b|SAVEPOINT\b)", sql, re.I | re.M) is not None
         if explicit_tx:
             # Let the block's own BEGIN/COMMIT/ROLLBACK work exactly as written.
             self.conn.autocommit = True
@@ -489,6 +500,11 @@ def postprocess(soup: BeautifulSoup):
             li["class"] = li.get("class", []) + ["todo"]
             box = soup.new_tag("span", attrs={"class": "cb" + (" done" if done else "")})
             target.insert(0, box)
+    # a short checklist stays on one page
+    for ul in soup.find_all("ul"):
+        items = ul.find_all("li", recursive=False)
+        if items and all("todo" in (li.get("class") or []) for li in items):
+            ul["class"] = (ul.get("class") or []) + (["checklist", "keep"] if len(items) <= 14 else ["checklist"])
 
     # a short lead-in paragraph ("P3.", "Now try this:") stays on the same page as its code block
     for cg in soup.find_all("div", class_="codegroup"):
@@ -515,6 +531,51 @@ def postprocess(soup: BeautifulSoup):
         cols = len(t.find("tr").find_all(["th", "td"])) if t.find("tr") else 0
         if cols >= 5:
             t["class"] = (t.get("class") or []) + ["wide"]
+        # long tables may break between rows instead of jumping whole to the next page
+        body = t.find("tbody") or t
+        if len(body.find_all("tr", recursive=False)) > 16:
+            t["class"] = (t.get("class") or []) + ["long"]
+
+
+def page_fill(page) -> float:
+    """Fraction of the printable height used on a PDF page (header and footer excluded)."""
+    top, bottom = 58.0, page.rect.height - 50.0
+    lowest = top
+    for block in page.get_text("dict")["blocks"]:
+        for line in block.get("lines", []):
+            if not any(span["text"].strip() for span in line["spans"]):
+                continue
+            y0, y1 = line["bbox"][1], line["bbox"][3]
+            if y1 > top and y0 < bottom:
+                lowest = max(lowest, y1)
+    for drawing in page.get_drawings():
+        r = drawing["rect"]
+        if r.y1 > top and r.y0 < bottom:
+            lowest = max(lowest, r.y1)
+    return (lowest - top) / (bottom - top)
+
+
+def sessions_after_stub_pages(pdf: bytes, soup: BeautifulSoup, threshold: float = 0.25) -> set[str]:
+    """Ids of h2 sessions whose previous page is a near-empty last page of the session before."""
+    try:
+        import pymupdf
+    except ImportError:
+        print("pymupdf not installed: skipping the near-empty-page layout check")
+        return set()
+    doc = pymupdf.open(stream=pdf, filetype="pdf")
+    names = doc.resolve_names()
+    part_pages = {names[h["id"]]["page"] for h in soup.find_all("h1") if h.get("id") in names}
+    found = set()
+    for h in soup.find_all("h2"):
+        hid, classes = h.get("id"), h.get("class") or []
+        if not hid or hid not in names or "nobreak" in classes or "flow" in classes:
+            continue
+        if "Summary & Rapid Revision" in h.get_text():   # module summaries keep their own page
+            continue
+        prev = names[hid]["page"] - 1
+        if prev >= 1 and prev not in part_pages and page_fill(doc[prev]) < threshold:
+            found.add(hid)
+    return found
 
 
 def build_toc(soup: BeautifulSoup) -> str:
@@ -686,8 +747,24 @@ def main():
     from weasyprint.text.fonts import FontConfiguration
     fc = FontConfiguration()
     css = CSS(filename=str(ROOT / "style.css"), font_config=fc)
-    HTML(string=final_html, base_url=str(ROOT)).write_pdf(
-        str(OUT_PDF), stylesheets=[css], font_config=fc)
+
+    # Every session starts on a new page. Where a session's last page would hold only a
+    # few lines, the next session starts on that page instead. Moving a session can change
+    # the pages after it, so the check is repeated a few times.
+    flowed: set[str] = set()
+    for attempt in range(4):
+        final_html = str(soup).replace("TOC_PLACEHOLDER", toc)
+        pdf = HTML(string=final_html, base_url=str(ROOT)).write_pdf(stylesheets=[css], font_config=fc)
+        new = sessions_after_stub_pages(pdf, soup) - flowed if attempt < 3 else set()
+        if not new:
+            break
+        for hid in sorted(new):
+            h = soup.find(id=hid)
+            h["class"] = (h.get("class") or []) + ["flow"]
+        flowed |= new
+        print(f"layout pass {attempt + 1}: {len(new)} session(s) moved up onto a near-empty page")
+    (BUILD_DIR / "handbook.html").write_text(final_html, encoding="utf-8")
+    OUT_PDF.write_bytes(pdf)
     print(f"wrote {OUT_PDF}")
 
 

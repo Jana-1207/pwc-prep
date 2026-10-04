@@ -123,6 +123,7 @@ li::marker { color: #475467; }
 li.todo { list-style: none; position: relative; margin-left: -4mm; padding-left: 6mm; }
 span.cb { position: absolute; left: 0; top: 0.28em; width: 2.9mm; height: 2.9mm; border: 0.9pt solid #475467; border-radius: 0.6mm; background: #fff; }
 span.cb.done { background: var(--navy); }
+ul.checklist.keep { break-inside: avoid; }
 
 /* ---------------------------------------------------------------- tables */
 table { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3.5mm 0; font-size: 8.7pt; line-height: 1.38; }
@@ -338,3 +339,31 @@ table.result.wide7 { font-size: 6.4pt; }
 table.result.wide7 th, table.result.wide7 td { padding: 0.6mm 1.3mm; }
 /* trend cards: first column as a label */
 .box-concept table td:first-child { width: 30mm; font-weight: 600; color: #1a3a6b; background: #f3f7fd; }
+
+/* ---------------------------------------------------------------- glossary */
+.box-glossary { border: 0; background: none; padding: 0; margin: 0; }
+.box-glossary table { font-size: 8.4pt; margin-top: 0.5mm; }
+.box-glossary td:first-child, .box-glossary th:first-child { width: 31mm; }
+.box-glossary td:last-child, .box-glossary th:last-child { width: 19mm; white-space: nowrap; color: #475467; }
+p.glossletter { font-size: 13pt; font-weight: 700; color: var(--navy); margin: 3.5mm 0 0.8mm 0; break-after: avoid; border-bottom: 0.8pt solid #c8d1dd; padding-bottom: 0.6mm; }
+.box-covcheck { border: 0; background: none; padding: 0; margin: 0; }
+.box-covcheck td:first-child, .box-covcheck th:first-child { width: 42mm; font-weight: 600; color: var(--navy); }
+.box-covcheck td:last-child, .box-covcheck th:last-child { white-space: nowrap; text-align: right; width: 12mm; }
+.box-glossary table { break-inside: auto; }
+.box-glossary tr { break-inside: avoid; }
+.box-glossary td { padding: 0.95mm 1.8mm; }
+.box-covcheck table { break-inside: auto; }
+table.long { break-inside: auto; }
+/* each page fragment of a box gets its own borders and padding; also avoids a WeasyPrint
+   case where a bordered box that did not fit was moved whole instead of being split */
+.box { box-decoration-break: clone; }
+/* module summaries: slightly denser so summary + checklist fit their pages */
+.box-summary .box-body { font-size: 9.1pt; line-height: 1.44; }
+.box-checklist .box-body { font-size: 8.9pt; line-height: 1.4; }
+/* question, practice and answer boxes: slightly denser, so session-ending boxes rarely
+   spill a few lines onto an otherwise empty page */
+.box-questions .box-body, .box-practice .box-body, .box-answers .box-body { font-size: 9.3pt; line-height: 1.45; }
+.qa { margin-bottom: 2.1mm; }
+.box-questions h4 { margin: 2.6mm 0 1.5mm 0; }
+/* a session that starts on the previous session's near-empty last page */
+h2.flow { break-before: auto; margin-top: 9mm; }
