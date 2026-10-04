@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 262" width="720" height="262" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<text x="170" y="20" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">GROUP BY → rows are collapsed</text>
+<rect x="15" y="44" width="102" height="19" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="37" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">dept</text>
+<text x="88" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">salary</text>
+<rect x="15" y="63" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="37" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="88" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">120000</text>
+<rect x="15" y="82" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="37" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="88" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">95000</text>
+<rect x="15" y="101" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="37" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="88" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">80000</text>
+<rect x="15" y="120" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="37" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="88" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">110000</text>
+<rect x="15" y="139" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="37" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="88" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">70000</text>
+<line x1="124" y1="100" x2="173.4" y2="100" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,100 171.5,96.9 171.5,103.1" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="134" y="85.6" width="34" height="14.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="151" y="96.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="500" fill="#344054" text-anchor="middle">AVG()</text>
+<rect x="186" y="72" width="118" height="19" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="208" y="84.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">dept</text>
+<text x="267" y="84.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">avg_sal</text>
+<rect x="186" y="91" width="118" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="208" y="103.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<rect x="230" y="91" width="74" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="267" y="103.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">98333.33</text>
+<rect x="186" y="110" width="118" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="208" y="122.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<rect x="230" y="110" width="74" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="267" y="122.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">90000.00</text>
+<text x="250" y="150" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#B5520C" text-anchor="middle">5 rows in → 2 rows out</text>
+<line x1="358" y1="14" x2="358" y2="236" stroke="#E4E7EC" stroke-width="1.2" stroke-linecap="round"/>
+<text x="540" y="20" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Window function → rows are kept</text>
+<rect x="372" y="44" width="102" height="19" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="394" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">dept</text>
+<text x="445" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">salary</text>
+<rect x="372" y="63" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="394" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="445" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">120000</text>
+<rect x="372" y="82" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="394" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="445" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">95000</text>
+<rect x="372" y="101" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="394" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="445" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">80000</text>
+<rect x="372" y="120" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="394" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="445" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">110000</text>
+<rect x="372" y="139" width="102" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="394" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="445" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">70000</text>
+<line x1="480" y1="100" x2="525.5" y2="100" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="530,100 523.5,96.9 523.5,103.1" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="485" y="85.6" width="40" height="14.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="505" y="96.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="500" fill="#344054" text-anchor="middle">OVER()</text>
+<rect x="536" y="44" width="176" height="19" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="557" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">dept</text>
+<text x="607" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">salary</text>
+<text x="674" y="56.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">dept_avg</text>
+<rect x="536" y="63" width="176" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="557" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="607" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">120000</text>
+<rect x="636" y="63" width="76" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="674" y="75.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">98333.33</text>
+<rect x="536" y="82" width="176" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="557" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="607" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">95000</text>
+<rect x="636" y="82" width="76" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="674" y="94.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">98333.33</text>
+<rect x="536" y="101" width="176" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="557" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Eng</text>
+<text x="607" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">80000</text>
+<rect x="636" y="101" width="76" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="674" y="113.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">98333.33</text>
+<rect x="536" y="120" width="176" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="557" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="607" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">110000</text>
+<rect x="636" y="120" width="76" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="674" y="132.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">90000.00</text>
+<rect x="536" y="139" width="176" height="19" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="557" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Fin</text>
+<text x="607" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">70000</text>
+<rect x="636" y="139" width="76" height="19" rx="0" fill="#FFF1D6" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="674" y="151.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">90000.00</text>
+<text x="612" y="172" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#B5520C" text-anchor="middle">5 rows in → 5 rows out</text>
+<text x="360" y="210" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#344054" text-anchor="middle">AVG(salary) OVER (PARTITION BY dept) adds the department average to EVERY row,</text>
+<text x="360" y="226" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#344054" text-anchor="middle">so you can compare each employee with their department in the same query.</text>
+</svg>

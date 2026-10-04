@@ -1,0 +1,333 @@
+/* =====================================================================
+   PwC Modern Data Systems Interview Handbook — print stylesheet
+   Rendered with WeasyPrint (CSS Paged Media).
+   ===================================================================== */
+
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_400Regular.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_400Regular_Italic.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_300Light.ttf"); font-weight: 300; font-style: normal; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_500Medium.ttf"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_600SemiBold.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_600SemiBold_Italic.ttf"); font-weight: 600; font-style: italic; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_700Bold.ttf"); font-weight: 700; font-style: normal; }
+@font-face { font-family: "Plex Sans"; src: url("fonts/IBMPlexSans_700Bold_Italic.ttf"); font-weight: 700; font-style: italic; }
+@font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono_400Regular.ttf"); font-weight: 400; font-style: normal; }
+@font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono_400Regular_Italic.ttf"); font-weight: 400; font-style: italic; }
+@font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono_500Medium.ttf"); font-weight: 500; font-style: normal; }
+@font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono_600SemiBold.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Plex Mono"; src: url("fonts/IBMPlexMono_700Bold.ttf"); font-weight: 700; font-style: normal; }
+
+:root {
+  --navy: #13294b;
+  --blue: #1f5fa8;
+  --accent: #b5520c;
+  --text: #1d2330;
+  --muted: #5b6575;
+  --line: #d5dbe3;
+  --soft: #f4f6f9;
+}
+
+/* ---------------------------------------------------------------- pages */
+@page {
+  size: A4;
+  margin: 19mm 17mm 18mm 17mm;
+  @top-left {
+    content: "PwC Technology Interview Preparation";
+    font-family: "Plex Sans"; font-size: 7.5pt; color: #8a93a2;
+    vertical-align: bottom; padding-bottom: 3mm;
+  }
+  @top-right {
+    content: string(parttitle);
+    font-family: "Plex Sans"; font-size: 7.5pt; color: #8a93a2;
+    vertical-align: bottom; padding-bottom: 3mm;
+  }
+  @bottom-center {
+    content: counter(page);
+    font-family: "Plex Sans"; font-size: 8.5pt; color: #5b6575;
+  }
+}
+@page cover {
+  margin: 0;
+  @top-left { content: none; } @top-right { content: none; } @bottom-center { content: none; }
+}
+@page toc {
+  @top-right { content: "Contents"; font-family: "Plex Sans"; font-size: 7.5pt; color: #8a93a2; vertical-align: bottom; padding-bottom: 3mm; }
+}
+
+html { font-family: "Plex Sans", "DejaVu Sans", sans-serif; font-size: 9.6pt; color: var(--text); }
+body { margin: 0; line-height: 1.5; text-align: left; hyphens: manual; }
+p { margin: 0 0 0.55em 0; orphans: 3; widows: 3; }
+strong { font-weight: 600; color: #101828; }
+em { font-style: italic; }
+a { color: var(--blue); text-decoration: none; }
+hr { border: 0; border-top: 0.6pt solid var(--line); margin: 1em 0; }
+sup { font-size: 70%; }
+
+/* ---------------------------------------------------------------- cover */
+.cover { page: cover; height: 297mm; position: relative; background: #ffffff; break-after: page; }
+.cover-band { position: absolute; left: 0; top: 0; width: 210mm; height: 92mm; background: var(--navy); }
+.cover-band-accent { position: absolute; left: 0; top: 92mm; width: 210mm; height: 2.2mm; background: var(--accent); }
+.cover-inner { position: absolute; left: 20mm; right: 20mm; top: 24mm; }
+.cover-kicker { color: #c9d5e8; font-size: 9pt; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; }
+.cover-title { color: #ffffff; font-size: 31pt; line-height: 1.12; font-weight: 700; margin: 6mm 0 4mm 0; border: 0; padding: 0;
+  string-set: none; bookmark-level: none; break-before: avoid; }
+.cover-subtitle { color: #e8eef7; font-size: 14.5pt; font-weight: 400; line-height: 1.3; }
+.cover-desc { margin-top: 30mm; font-size: 10.5pt; line-height: 1.55; color: #344054; max-width: 160mm; }
+.cover-grid { margin-top: 9mm; display: block; }
+.cover-part { display: block; padding: 2.1mm 0; border-bottom: 0.6pt solid #e4e8ee; font-size: 10pt; color: #1d2330; }
+.cover-part b { display: inline-block; width: 22mm; color: var(--accent); font-weight: 600; font-size: 8.5pt; letter-spacing: 0.08em; }
+.cover-stats { margin-top: 9mm; }
+.cover-stat { display: inline-block; width: 40mm; margin-right: 1mm; vertical-align: top; }
+.cover-stat .num { display: block; font-size: 19pt; font-weight: 700; color: var(--navy); line-height: 1.1; }
+.cover-stat .lbl { display: block; font-size: 7.8pt; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+.cover-foot { position: absolute; left: 20mm; right: 20mm; bottom: 15mm; font-size: 7.8pt; color: #667085; line-height: 1.45; border-top: 0.6pt solid #e4e8ee; padding-top: 3mm; }
+
+/* ---------------------------------------------------------------- TOC */
+nav.toc { page: toc; break-after: page; }
+.toc-title { font-size: 22pt; color: var(--navy); margin: 0 0 5mm 0; break-before: avoid; string-set: parttitle "Contents"; }
+.toc-list { list-style: none; margin: 0; padding: 0; }
+.toc-list li { margin: 0; padding: 0; }
+.toc-list a { color: var(--text); display: block; }
+.toc-list a::after { content: leader(dotted) " " target-counter(attr(href), page); color: var(--muted); }
+.toc-l1 { margin-top: 3.2mm !important; font-weight: 600; font-size: 10pt; break-after: avoid; }
+.toc-l1 a { color: var(--navy); }
+.toc-l1 .toc-label { color: var(--accent); font-size: 7.6pt; letter-spacing: 0.08em; margin-right: 2mm; font-weight: 600; }
+.toc-l2 { padding-left: 6mm !important; font-size: 9pt; line-height: 1.55; }
+.toc-l3 { padding-left: 12mm !important; font-size: 8.3pt; color: var(--muted); line-height: 1.5; }
+.toc-l3 a { color: #475467; }
+
+/* ---------------------------------------------------------------- headings */
+h1, h2, h3, h4, h5 { color: var(--navy); font-weight: 700; line-height: 1.22; break-after: avoid; }
+h1 { font-size: 24pt; margin: 0 0 4mm 0; break-before: page; string-set: parttitle content(); bookmark-level: 1; }
+h1[data-label]::before {
+  content: attr(data-label); display: block; font-size: 9pt; letter-spacing: 0.16em; color: var(--accent);
+  font-weight: 600; margin-bottom: 2.5mm;
+}
+h1.part { font-size: 27pt; padding: 6mm 0 5mm 0; border-bottom: 2.2pt solid var(--navy); margin-bottom: 5mm; }
+h2 { font-size: 16pt; margin: 0 0 3mm 0; padding-bottom: 2mm; border-bottom: 1pt solid var(--line); break-before: page; bookmark-level: 2; }
+h2.nobreak { break-before: auto; margin-top: 7mm; }
+h3 { font-size: 12.4pt; margin: 6mm 0 2.2mm 0; color: #1a3a6b; bookmark-level: 3; }
+h4 { font-size: 10.6pt; margin: 4.5mm 0 1.5mm 0; color: #1a3a6b; bookmark-level: none; }
+h5 { font-size: 9.8pt; margin: 3.5mm 0 1.2mm 0; color: #344054; bookmark-level: none; }
+h6 { bookmark-level: none; }
+.box h3 { margin-top: 3mm; }
+.box h4 { margin-top: 3mm; }
+.box h4:first-child, .box h3:first-child { margin-top: 0.5mm; }
+
+/* ---------------------------------------------------------------- lists */
+ul, ol { margin: 0 0 0.6em 0; padding-left: 5.5mm; }
+li { margin: 0.12em 0; }
+li > p { margin-bottom: 0.25em; }
+li::marker { color: #475467; }
+
+li.todo { list-style: none; position: relative; margin-left: -4mm; padding-left: 6mm; }
+span.cb { position: absolute; left: 0; top: 0.28em; width: 2.9mm; height: 2.9mm; border: 0.9pt solid #475467; border-radius: 0.6mm; background: #fff; }
+span.cb.done { background: var(--navy); }
+
+/* ---------------------------------------------------------------- tables */
+table { border-collapse: collapse; width: 100%; margin: 1.5mm 0 3.5mm 0; font-size: 8.7pt; line-height: 1.38; }
+th { background: #e9eef5; color: var(--navy); font-weight: 600; text-align: left; padding: 1.4mm 2mm; border: 0.6pt solid #c8d1dd; vertical-align: bottom; }
+td { padding: 1.3mm 2mm; border: 0.6pt solid #d9dfe7; vertical-align: top; }
+tbody tr:nth-child(even) td { background: #fafbfc; }
+table.wide { font-size: 8.1pt; }
+table.wide th, table.wide td { padding: 1.1mm 1.5mm; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; }
+td code, th code { font-size: 0.92em; }
+.tablecap { font-size: 8.3pt; font-weight: 600; color: var(--navy); margin: 2mm 0 0.8mm 0; letter-spacing: 0.04em; text-transform: uppercase; break-after: avoid; }
+
+/* ---------------------------------------------------------------- code */
+code { font-family: "Plex Mono", "DejaVu Sans Mono", monospace; font-size: 0.88em; background: #eef1f5; padding: 0.05em 0.3em; border-radius: 1.2mm; color: #1d2939; }
+.codegroup { margin: 1.5mm 0 3.5mm 0; }
+.codeblock { position: relative; border: 0.6pt solid #d6dde6; border-left: 2.4pt solid var(--blue); border-radius: 1.2mm; background: #f7f9fb; break-inside: avoid; }
+.codeblock.lang-javascript { border-left-color: #2f855a; }
+.codeblock.lang-json { border-left-color: #8a5a00; }
+.codeblock.lang-http { border-left-color: #6941c6; }
+.codeblock.lang-text, .codeblock.lang-csv { border-left-color: #98a2b3; }
+.codelabel { position: absolute; right: 2mm; top: 1mm; font-size: 6.6pt; color: #8a93a2; letter-spacing: 0.06em; text-transform: uppercase; font-family: "Plex Sans"; }
+.codetitle { font-size: 7.8pt; font-weight: 600; color: #344054; padding: 1.4mm 3mm 0 3mm; }
+pre.code { margin: 0; padding: 2.6mm 3mm 2.4mm 3mm; font-family: "Plex Mono", "DejaVu Sans Mono", monospace; font-size: 8.1pt; line-height: 1.42;
+  white-space: pre-wrap; overflow-wrap: anywhere; color: #1d2939; }
+pre.code .linenos { color: #98a2b3; margin-right: 2.5mm; display: inline-block; width: 4mm; text-align: right; }
+
+/* Pygments tokens (print friendly) */
+.k, .kd, .kn, .kp, .kr, .kv { color: #1d4ed8; font-weight: 600; }
+.kt { color: #0e7490; font-weight: 600; }
+.kc { color: #7c3aed; font-weight: 600; }
+.nb, .bp { color: #0e7490; }
+.nf, .fm { color: #9a3412; }
+.s, .s1, .s2, .sa, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: #15803d; }
+.m, .mi, .mf, .mh, .mo, .il { color: #b45309; }
+.c, .c1, .cm, .cp, .cs, .ch { color: #6b7280; font-style: italic; }
+.o, .ow { color: #9d174d; }
+.na { color: #9a3412; }
+.nt { color: #1d4ed8; }
+.nv, .vc, .vg, .vi { color: #7c3aed; }
+.err { color: inherit; border: 0; }
+
+/* SQL output */
+.sql-output, .sql-error { border: 0.6pt solid #d6dde6; border-top: 0; border-radius: 0 0 1.2mm 1.2mm; padding: 1.6mm 3mm 2mm 3mm; background: #ffffff; margin-top: -0.8mm; break-inside: avoid; }
+.out-head { font-size: 6.8pt; color: #667085; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600; margin-bottom: 1mm; }
+.sql-output.status { padding: 1.4mm 3mm; }
+.sql-output.status .out-head { display: inline; margin-right: 2mm; }
+.sql-output.status code { background: none; padding: 0; color: #15803d; }
+table.result { width: auto; min-width: 30%; font-family: "Plex Mono", "DejaVu Sans Mono", monospace; font-size: 7.7pt; margin: 0.5mm 0 0.5mm 0; line-height: 1.3; }
+table.result th { background: #f0f3f7; font-weight: 600; color: #344054; padding: 0.8mm 2.2mm; border-color: #d9dfe7; }
+table.result td { padding: 0.7mm 2.2mm; border-color: #e3e8ee; white-space: nowrap; }
+table.result td.num { text-align: right; }
+table.result tbody tr:nth-child(even) td { background: #fbfcfd; }
+.null { color: #98a2b3; font-style: italic; }
+.out-foot { font-size: 6.8pt; color: #98a2b3; margin-top: 0.6mm; }
+pre.plan { margin: 0; font-family: "Plex Mono", monospace; font-size: 7.7pt; line-height: 1.38; white-space: pre-wrap; color: #344054; }
+.sql-error { background: #fff8f7; border-color: #f2c9c4; }
+.sql-error .out-head { color: #b42318; }
+.err-label { font-family: "Plex Mono", monospace; font-weight: 700; color: #b42318; font-size: 8pt; }
+.sql-error { font-family: "Plex Mono", monospace; font-size: 7.9pt; color: #7a271a; }
+.err-extra { margin-top: 0.6mm; color: #912018; }
+
+/* ---------------------------------------------------------------- figures */
+figure.diagram { margin: 3mm 0 4mm 0; text-align: center; break-inside: avoid; }
+.svgwrap { margin: 0 auto; width: 100%; }
+.svgwrap svg { width: 100%; height: auto; }
+figcaption { font-size: 8.2pt; color: var(--muted); margin-top: 1.6mm; font-style: italic; }
+.fignum { font-weight: 600; font-style: normal; color: #344054; }
+
+/* ---------------------------------------------------------------- boxes */
+.box { border-radius: 1.6mm; margin: 2.5mm 0 4mm 0; padding: 2.6mm 3.6mm 1.6mm 3.6mm; border: 0.6pt solid var(--line); border-left-width: 2.8pt; background: #fbfcfd; }
+.box-title { font-weight: 700; font-size: 8.4pt; letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 1.6mm; break-after: avoid; }
+.box-body > :last-child { margin-bottom: 1mm; }
+.box-body ul, .box-body ol { margin-bottom: 0.5em; }
+
+.box-explain { border-color: #a9dcd5; border-left-color: #0f766e; background: #f0faf8; break-inside: avoid; }
+.box-explain .box-title { color: #0f766e; }
+.box-explain .box-title::before { content: "\201C\2009"; font-size: 12pt; }
+.box-explain .box-body { font-size: 9.4pt; }
+
+.box-trap { border-color: #f4c7c2; border-left-color: #b42318; background: #fff6f5; }
+.box-trap .box-title { color: #b42318; }
+.box-tip { border-color: #c4d8f0; border-left-color: #1f5fa8; background: #f2f7fd; break-inside: avoid; }
+.box-tip .box-title { color: #1f5fa8; }
+.box-pwc { border-color: #f5d0a9; border-left-color: #b5520c; background: #fff7ef; }
+.box-pwc .box-title { color: #b5520c; }
+.box-extension { border-color: #d6ccf5; border-left-color: #6941c6; background: #f8f5ff; }
+.box-extension .box-title { color: #6941c6; }
+.box-prereq { border-color: #cfd6e0; border-left-color: #475467; background: #f5f7fa; }
+.box-prereq .box-title { color: #475467; }
+.box-analogy { border-color: #f0dc9c; border-left-color: #a15c07; background: #fffbeb; break-inside: avoid; }
+.box-analogy .box-title { color: #a15c07; }
+.box-remember { border-color: #c3cee0; border-left-color: #13294b; background: #f1f4f9; break-inside: avoid; }
+.box-remember .box-title { color: #13294b; }
+.box-note { border-color: #d9dee6; border-left-color: #667085; background: #f8f9fb; break-inside: avoid; }
+.box-note .box-title { color: #475467; }
+.box-project { border-color: #b9e0dc; border-left-color: #0e7490; background: #f0f9fa; }
+.box-project .box-title { color: #0e7490; }
+.box-example { border-color: #dde3ea; border-left-color: #98a2b3; background: #fafbfc; }
+.box-example .box-title { color: #475467; }
+.box-concept { border-color: #c9d6ea; border-left-color: #1f5fa8; background: #f7faff; }
+.box-concept .box-title { color: #1f5fa8; }
+.box-source { border-color: #dde3ea; border-left-color: #98a2b3; background: #fafbfc; font-size: 8.4pt; }
+.box-source .box-title { color: #475467; }
+.box-compare { border-color: #dde3ea; border-left-color: #1a3a6b; background: #ffffff; }
+.box-compare .box-title { color: #1a3a6b; }
+.box-linebyline { border-color: #dde3ea; border-left-color: #1f5fa8; background: #ffffff; }
+.box-linebyline .box-title { color: #1f5fa8; }
+.box-plain { border: 0; background: none; padding: 0; }
+
+.box-coverage { border: 0.8pt solid #b7c4d8; border-left: 2.8pt solid var(--navy); background: #f6f8fc; }
+.box-coverage .box-title { color: var(--navy); }
+.box-coverage ul { list-style: none; padding-left: 0; columns: 1; }
+.box-coverage li { padding-left: 5mm; position: relative; margin: 0.4mm 0; }
+.box-coverage li::before { content: "\2713"; position: absolute; left: 0; color: #15803d; font-weight: 700; font-family: "DejaVu Sans"; }
+
+.box-questions { border: 0.8pt solid #b7c4d8; border-left: 2.8pt solid var(--navy); background: #ffffff; counter-reset: qnum; padding-top: 0; }
+.box-questions > .box-title { background: var(--navy); color: #ffffff; margin: 0 -3.6mm 2mm -3.6mm; padding: 1.6mm 3.6mm; border-radius: 0 1.2mm 0 0; }
+.box-questions h4 { font-size: 8.6pt; letter-spacing: 0.08em; text-transform: uppercase; color: #1f5fa8; border-bottom: 0.6pt solid #dbe3ee; padding-bottom: 0.8mm; margin: 3.2mm 0 1.8mm 0; }
+
+.box-practice { border: 0.8pt solid #c7cbf5; border-left: 2.8pt solid #3538cd; background: #fafaff; }
+.box-practice > .box-title { color: #3538cd; }
+.box-practice h4 { font-size: 8.6pt; letter-spacing: 0.08em; text-transform: uppercase; color: #3538cd; margin: 3mm 0 1.4mm 0; }
+.box-answers { border: 0.8pt solid #bfdcc9; border-left: 2.8pt solid #2f7a4d; background: #f6fbf8; }
+.box-answers > .box-title { color: #2f7a4d; }
+.box-answers h4 { font-size: 8.6pt; letter-spacing: 0.08em; text-transform: uppercase; color: #2f7a4d; margin: 3mm 0 1.4mm 0; }
+
+.box-summary { border: 0.8pt solid #b7c4d8; border-left: 2.8pt solid var(--navy); background: #f6f8fc; }
+.box-summary > .box-title { color: var(--navy); font-size: 9pt; }
+.box-summary h4 { font-size: 8.8pt; letter-spacing: 0.06em; text-transform: uppercase; color: #1f5fa8; margin: 3mm 0 1.2mm 0; }
+.box-checklist { border: 0.8pt solid #b7c4d8; border-left: 2.8pt solid #2f7a4d; background: #ffffff; }
+.box-checklist > .box-title { color: #2f7a4d; }
+.box-checklist ul { columns: 2; column-gap: 7mm; padding-left: 4mm; }
+.box-checklist li { break-inside: avoid; }
+
+.box-pattern { border: 0.8pt solid #c9d6ea; border-left: 2.8pt solid #1f5fa8; background: #f7faff; }
+.box-pattern .box-title { color: #1f5fa8; }
+
+/* ---------------------------------------------------------------- Q&A */
+.qa { margin: 0 0 2.6mm 0; break-inside: avoid; counter-increment: qnum; }
+.q { position: relative; padding-left: 9mm; font-weight: 600; color: #101828; }
+.q p { margin-bottom: 0.35em; }
+.qmark { position: absolute; left: 0; top: 0.05em; font-size: 7pt; font-weight: 700; color: #ffffff; background: var(--navy); border-radius: 1mm; padding: 0.2mm 1.1mm; }
+.qmark::before { content: "Q" counter(qnum); }
+.a { position: relative; padding-left: 9mm; margin-top: 0.6mm; }
+.amark { position: absolute; left: 0; top: 0.05em; font-size: 7pt; font-weight: 700; color: #0f766e; border: 0.7pt solid #0f766e; border-radius: 1mm; padding: 0 1.15mm; }
+.atext p { margin-bottom: 0.4em; }
+.atext ul, .atext ol { margin-bottom: 0.4em; }
+
+/* ---------------------------------------------------------------- tags */
+.tag { display: inline-block; font-size: 6.4pt; font-weight: 700; letter-spacing: 0.06em; padding: 0.15mm 1.3mm 0.1mm 1.3mm; border-radius: 0.9mm; vertical-align: 0.12em; margin-right: 0.8mm; line-height: 1.4; background: #e8edf4; color: #344054; font-style: normal; }
+.tag-definition { background: #e0ecfb; color: #1f4f8a; }
+.tag-why { background: #e7f6ec; color: #1f6b3a; }
+.tag-how { background: #e6f4f8; color: #0e5a72; }
+.tag-comparison { background: #efe9fb; color: #5b3aa8; }
+.tag-scenario { background: #fff1e3; color: #9a4609; }
+.tag-sql-problem { background: #e3effe; color: #1d4ed8; }
+.tag-design-question { background: #fde9f3; color: #a3125a; }
+.tag-trap-question { background: #fde8e7; color: #b42318; }
+.tag-easy { background: #e7f6ec; color: #1f6b3a; }
+.tag-medium { background: #fff4d6; color: #8a5a00; }
+.tag-hard { background: #fde8e7; color: #b42318; }
+.tag-high-priority { background: #13294b; color: #ffffff; }
+.tag-medium-priority { background: #5b7aa8; color: #ffffff; }
+.tag-lower-priority { background: #c8d1dd; color: #344054; }
+.tag-interview-extension { background: #efe9fb; color: #5b3aa8; }
+.tag-course { background: #e9eef5; color: #13294b; }
+.tag-must-know { background: #b42318; color: #ffffff; }
+.tag-reported { background: #fff1e3; color: #9a4609; }
+.tag-likely { background: #e6f4f8; color: #0e5a72; }
+.tag-recommended { background: #e7f6ec; color: #1f6b3a; }
+.tag-general { background: #e9eef5; color: #344054; }
+.tag-project { background: #e6f4f8; color: #0e5a72; }
+.tag-behavioural { background: #fde9f3; color: #a3125a; }
+.tag-coding { background: #e3effe; color: #1d4ed8; }
+
+/* ---------------------------------------------------------------- misc */
+.pagebreak { break-before: page; }
+.lead { font-size: 10.6pt; line-height: 1.55; color: #344054; }
+.muted { color: var(--muted); }
+.small { font-size: 8.4pt; }
+.center { text-align: center; }
+.two-col { columns: 2; column-gap: 7mm; }
+.two-col > * { break-inside: avoid; }
+.keepwith { break-after: avoid; }
+blockquote { margin: 2mm 0 3mm 0; padding: 1.5mm 4mm; border-left: 2.5pt solid #c8d1dd; color: #344054; background: #f8f9fb; }
+blockquote p:last-child { margin-bottom: 0; }
+.chapter { }
+dl { margin: 0 0 0.6em 0; }
+dt { font-weight: 600; color: var(--navy); margin-top: 1.2mm; }
+dd { margin: 0 0 0 5mm; }
+
+/* keep a code block together with its output when it fits on one page */
+.codegroup { break-inside: avoid; }
+/* page references, e.g. in the course coverage map */
+a.pageref::after { content: "p. " target-counter(attr(href), page); color: var(--blue); }
+a.pageref { white-space: nowrap; font-size: 0.95em; }
+td.pg, th.pg { white-space: nowrap; text-align: right; width: 12mm; }
+.front-title { font-size: 24pt; }
+
+/* small tables move to the next page instead of splitting; long tables still break */
+table { break-inside: avoid; }
+.box-covmap { border: 0; background: none; padding: 0; margin: 0; }
+.box-covmap td:nth-child(2) { white-space: nowrap; }
+.box-covmap td:last-child, .box-covmap th:last-child { white-space: nowrap; text-align: right; width: 12mm; }
+
+.codegroup.long, .codegroup.long .codeblock, .codegroup.long .sql-output { break-inside: auto; }
+pre.code { orphans: 4; widows: 4; }

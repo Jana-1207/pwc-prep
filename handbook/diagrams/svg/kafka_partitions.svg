@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="108" width="116" height="60" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="66" y="134" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11.5" font-weight="600" fill="#13294B" text-anchor="middle">Producer</text>
+<text x="66" y="148.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">order service</text>
+<rect x="150" y="24" width="380" height="238" rx="9" fill="#FFFFFF" stroke="#B5520C" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="162" y="16.1" width="150.6" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="168" y="27.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#B5520C" text-anchor="start">topic: orders (3 partitions)</text>
+<text x="166" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#7A3608" text-anchor="start">P0</text>
+<rect x="196" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="216" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">0</text>
+<rect x="240" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="260" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">1</text>
+<rect x="284" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="304" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">2</text>
+<rect x="328" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="348" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">3</text>
+<rect x="372" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="392" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">4</text>
+<rect x="416" y="56" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="436" y="78" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">5</text>
+<line x1="126" y1="138" x2="189.3" y2="75.7" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="192,73 186.2,75 189.9,78.7" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="466" y="78" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="500" fill="#5B6575" text-anchor="start">← new</text>
+<text x="166" y="149" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#7A3608" text-anchor="start">P1</text>
+<rect x="196" y="126" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="216" y="148" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">0</text>
+<rect x="240" y="126" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="260" y="148" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">1</text>
+<rect x="284" y="126" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="304" y="148" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">2</text>
+<rect x="328" y="126" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="348" y="148" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">3</text>
+<line x1="126" y1="138" x2="188.2" y2="142.7" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="192,143 186.7,140 186.3,145.2" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="378" y="148" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="500" fill="#5B6575" text-anchor="start">← new</text>
+<text x="166" y="219" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#7A3608" text-anchor="start">P2</text>
+<rect x="196" y="196" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="216" y="218" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">0</text>
+<rect x="240" y="196" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="260" y="218" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">1</text>
+<rect x="284" y="196" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="304" y="218" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">2</text>
+<rect x="328" y="196" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="348" y="218" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">3</text>
+<rect x="372" y="196" width="40" height="34" rx="3" fill="#FFF4E6" stroke="#B5520C" stroke-width="1"/>
+<text x="392" y="218" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10" font-weight="600" fill="#7A3608" text-anchor="middle">4</text>
+<line x1="126" y1="138" x2="189.5" y2="210.1" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="192,213 190.3,207.1 186.4,210.6" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="422" y="218" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="500" fill="#5B6575" text-anchor="start">← new</text>
+<rect x="556" y="24" width="158" height="238" rx="9" fill="#FFFFFF" stroke="#2F7A4D" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="568" y="16.1" width="125" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="574" y="27.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#2F7A4D" text-anchor="start">consumer group: billing</text>
+<rect x="574" y="54" width="124" height="38" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="636" y="69" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5136" text-anchor="middle">Consumer A</text>
+<text x="636" y="83.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">reads P0</text>
+<line x1="532" y1="73" x2="568.1" y2="73" stroke="#2F7A4D" stroke-width="1.4" stroke-dasharray="4 3" stroke-linecap="round"/>
+<polygon points="572,73 566.5,70.4 566.5,75.6" fill="#2F7A4D" stroke="none" stroke-width="1"/>
+<rect x="574" y="124" width="124" height="38" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="636" y="139" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5136" text-anchor="middle">Consumer B</text>
+<text x="636" y="153.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">reads P1</text>
+<line x1="532" y1="143" x2="568.1" y2="143" stroke="#2F7A4D" stroke-width="1.4" stroke-dasharray="4 3" stroke-linecap="round"/>
+<polygon points="572,143 566.5,140.4 566.5,145.6" fill="#2F7A4D" stroke="none" stroke-width="1"/>
+<rect x="574" y="194" width="124" height="38" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="636" y="209" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5136" text-anchor="middle">Consumer C</text>
+<text x="636" y="223.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">reads P2</text>
+<line x1="532" y1="213" x2="568.1" y2="213" stroke="#2F7A4D" stroke-width="1.4" stroke-dasharray="4 3" stroke-linecap="round"/>
+<polygon points="572,213 566.5,210.4 566.5,215.6" fill="#2F7A4D" stroke="none" stroke-width="1"/>
+<text x="340" y="276" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle" font-style="italic">Numbers = offsets. Order is guaranteed only within a partition (key = customer_id keeps a customer's events in order).</text>
+</svg>

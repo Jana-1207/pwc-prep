@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="6" y="14" width="344" height="298" rx="9" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="18" y="6.1" width="145.5" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="24" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5FA8" text-anchor="start">Synchronous — caller waits</text>
+<rect x="25" y="34" width="110" height="32" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="80" y="53.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Checkout</text>
+<line x1="80" y1="66" x2="80" y2="300" stroke="#98A2B3" stroke-width="1.1" stroke-dasharray="4 4" stroke-linecap="round"/>
+<rect x="215" y="34" width="110" height="32" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="270" y="53.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Payment</text>
+<line x1="270" y1="66" x2="270" y2="300" stroke="#98A2B3" stroke-width="1.1" stroke-dasharray="4 4" stroke-linecap="round"/>
+<rect x="74" y="92" width="12" height="150" rx="2" fill="#FFE7C7" stroke="#B5520C" stroke-width="1"/>
+<line x1="86" y1="96" x2="258.8" y2="96" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="264,96 256.5,92.4 256.5,99.6" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="154.9" y="81.8" width="40.1" height="14.5" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="175" y="92.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="500" fill="#344054" text-anchor="middle">request</text>
+<rect x="264" y="102" width="12" height="120" rx="2" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1"/>
+<line x1="264" y1="236" x2="91.2" y2="236" stroke="#475467" stroke-width="1.4" stroke-dasharray="5 4" stroke-linecap="round"/>
+<polygon points="86,236 93.5,239.6 93.5,232.4" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="152.5" y="221.8" width="45" height="14.5" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="175" y="232.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="500" fill="#344054" text-anchor="middle">response</text>
+<text x="178" y="166" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#B5520C" text-anchor="middle">caller is BLOCKED</text>
+<text x="178" y="180" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="middle">until the reply comes</text>
+<text x="178" y="288" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="500" fill="#344054" text-anchor="middle">simple; but slow/failing callee = slow caller</text>
+<rect x="370" y="14" width="344" height="298" rx="9" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="382" y="6.1" width="167.7" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="388" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#0F766E" text-anchor="start">Asynchronous — caller moves on</text>
+<rect x="385" y="34" width="90" height="32" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="430" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Checkout</text>
+<line x1="430" y1="66" x2="430" y2="300" stroke="#98A2B3" stroke-width="1.1" stroke-dasharray="4 4" stroke-linecap="round"/>
+<rect x="515" y="34" width="90" height="32" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="560" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#7A3608" text-anchor="middle">Queue</text>
+<line x1="560" y1="66" x2="560" y2="300" stroke="#98A2B3" stroke-width="1.1" stroke-dasharray="4 4" stroke-linecap="round"/>
+<rect x="625" y="34" width="90" height="32" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="670" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Email</text>
+<line x1="670" y1="66" x2="670" y2="300" stroke="#98A2B3" stroke-width="1.1" stroke-dasharray="4 4" stroke-linecap="round"/>
+<line x1="430" y1="98" x2="554.8" y2="98" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="560,98 552.5,94.4 552.5,101.6" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="473.9" y="83.9" width="42.3" height="14.2" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="495" y="94.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="500" fill="#344054" text-anchor="middle">message</text>
+<rect x="424" y="92" width="12" height="30" rx="2" fill="#FFE7C7" stroke="#B5520C" stroke-width="1"/>
+<text x="436" y="142" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#2F7A4D" text-anchor="start">continues</text>
+<text x="436" y="156" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#2F7A4D" text-anchor="start">immediately</text>
+<line x1="560" y1="196" x2="664.8" y2="196" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="670,196 662.5,192.4 662.5,199.6" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="580.7" y="181.9" width="68.6" height="14.2" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="615" y="192.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="500" fill="#344054" text-anchor="middle">delivered later</text>
+<rect x="664" y="202" width="12" height="46" rx="2" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1"/>
+<text x="542" y="288" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="500" fill="#344054" text-anchor="middle">resilient &amp; scalable; result arrives later</text>
+</svg>

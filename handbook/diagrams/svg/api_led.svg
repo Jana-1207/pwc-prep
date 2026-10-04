@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<text x="10" y="44" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">Experience APIs</text>
+<text x="10" y="60" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">shaped for each channel</text>
+<rect x="176" y="24" width="167.3" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="259.7" y="52.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Mobile app API</text>
+<rect x="357.3" y="24" width="167.3" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="441" y="52.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Partner portal API</text>
+<rect x="538.7" y="24" width="167.3" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="622.3" y="52.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Web API</text>
+<line x1="441" y1="80.2" x2="441" y2="113.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="441,118 443.9,112 438.1,112" fill="#667085" stroke="none" stroke-width="1"/>
+<polygon points="441,76 438.1,82 443.9,82" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="10" y="140" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">Process APIs</text>
+<text x="10" y="156" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">business processes</text>
+<rect x="176" y="120" width="258" height="50" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="305" y="148.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A3608" text-anchor="middle">Order fulfilment</text>
+<rect x="448" y="120" width="258" height="50" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="577" y="148.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A3608" text-anchor="middle">Customer 360</text>
+<line x1="441" y1="176.2" x2="441" y2="209.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="441,214 443.9,208 438.1,208" fill="#667085" stroke="none" stroke-width="1"/>
+<polygon points="441,172 438.1,178 443.9,178" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="10" y="236" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">System APIs</text>
+<text x="10" y="252" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">unlock core systems</text>
+<rect x="176" y="216" width="167.3" height="50" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="259.7" y="244.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#0B4F4A" text-anchor="middle">SAP ERP</text>
+<rect x="357.3" y="216" width="167.3" height="50" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="441" y="244.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#0B4F4A" text-anchor="middle">Salesforce</text>
+<rect x="538.7" y="216" width="167.3" height="50" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="622.3" y="244.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#0B4F4A" text-anchor="middle">Orders DB</text>
+<text x="441" y="296" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="middle" font-style="italic">Reusable layers: change SAP once in its System API; every consumer above keeps working.</text>
+</svg>

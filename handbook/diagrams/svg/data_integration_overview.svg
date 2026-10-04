@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="14" width="140" height="40" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="78" y="37.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#0B4F4A" text-anchor="middle">ERP (SAP)</text>
+<line x1="150" y1="34" x2="222.6" y2="85.6" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="226,88 222.8,82.2 219.4,86.9" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="8" y="68" width="140" height="40" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="78" y="91.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#0B4F4A" text-anchor="middle">CRM (Salesforce)</text>
+<line x1="150" y1="88" x2="221.8" y2="88" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="226,88 220,85.1 220,90.9" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="8" y="122" width="140" height="40" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="78" y="145.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#0B4F4A" text-anchor="middle">E-commerce DB</text>
+<line x1="150" y1="142" x2="221.8" y2="142" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="226,142 220,139.1 220,144.9" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="8" y="176" width="140" height="40" rx="7" fill="#FFFFFF" stroke="#98A2B3" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="78" y="199.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#344054" text-anchor="middle">SaaS APIs</text>
+<line x1="150" y1="196" x2="221.8" y2="196" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="226,196 220,193.1 220,198.9" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="8" y="230" width="140" height="40" rx="7" fill="#FFFFFF" stroke="#98A2B3" stroke-width="1.3" stroke-dasharray="5 4"/>
+<text x="78" y="253.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#344054" text-anchor="middle">CSV / Excel files</text>
+<line x1="150" y1="250" x2="222.6" y2="198.4" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="226,196 219.4,197.1 222.8,201.8" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="228" y="20" width="258" height="236" rx="9" fill="#FFFFFF" stroke="#B5520C" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="240" y="12.1" width="99.9" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="246" y="23.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#B5520C" text-anchor="start">Integration layer</text>
+<rect x="244" y="40" width="226" height="44" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="357" y="57.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#7A3608" text-anchor="middle">APIs (REST / SOAP)</text>
+<text x="357" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">real-time request / response</text>
+<rect x="244" y="92" width="226" height="44" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="357" y="109.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#7A3608" text-anchor="middle">ETL / ELT jobs</text>
+<text x="357" y="124.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">scheduled bulk copies</text>
+<rect x="244" y="144" width="226" height="44" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="357" y="161.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#7A3608" text-anchor="middle">CDC</text>
+<text x="357" y="176.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">stream every DB change</text>
+<rect x="244" y="196" width="226" height="44" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="357" y="213.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#7A3608" text-anchor="middle">Messaging / events</text>
+<text x="357" y="228.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">queues, pub/sub topics</text>
+<rect x="560" y="30" width="152" height="42" rx="7" fill="#F2EDFC" stroke="#6941C6" stroke-width="1.3"/>
+<text x="636" y="54.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#3E1F8C" text-anchor="middle">Data warehouse</text>
+<line x1="488" y1="138" x2="555.4" y2="54.3" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="558,51 552,53.9 556.5,57.5" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="560" y="88" width="152" height="42" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="636" y="112.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#13294B" text-anchor="middle">Other applications</text>
+<line x1="488" y1="138" x2="554.1" y2="110.6" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="558,109 551.4,108.6 553.6,114" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="560" y="146" width="152" height="42" rx="7" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="636" y="170.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#0B4F4A" text-anchor="middle">Search / cache</text>
+<line x1="488" y1="138" x2="554.1" y2="165.4" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="558,167 553.6,162 551.4,167.4" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="560" y="204" width="152" height="42" rx="7" fill="#F2EDFC" stroke="#6941C6" stroke-width="1.3"/>
+<text x="636" y="228.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.8" font-weight="600" fill="#3E1F8C" text-anchor="middle">Dashboards &amp; ML</text>
+<line x1="488" y1="138" x2="555.4" y2="221.7" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="558,225 556.5,218.5 552,222.1" fill="#667085" stroke="none" stroke-width="1"/>
+<text x="360" y="280" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#5B6575" text-anchor="middle" font-style="italic">Same goal every time: get the right data to the right place, in the right shape, on time.</text>
+</svg>

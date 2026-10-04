@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="18" width="300" height="240" rx="9" fill="#FFFFFF" stroke="#667085" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="20" y="10.1" width="54.6" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="26" y="21.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#667085" text-anchor="start">Monolith</text>
+<rect x="30" y="44" width="256" height="120" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="158" y="64" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">One application (one deployment)</text>
+<rect x="44" y="82" width="72" height="62" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="80" y="108.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Users</text>
+<text x="80" y="123.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">module</text>
+<rect x="126" y="82" width="72" height="62" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="162" y="108.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Orders</text>
+<text x="162" y="123.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">module</text>
+<rect x="208" y="82" width="72" height="62" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="244" y="108.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Payments</text>
+<text x="244" y="123.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">module</text>
+<path d="M98,195.3 A60,9.3 0 0 1 218,195.3 L218,234.7 A60,9.3 0 0 1 98,234.7 Z" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3" stroke-linejoin="round"/>
+<ellipse cx="158" cy="195.3" rx="60" ry="9.3" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="158" y="222.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#0B4F4A" text-anchor="middle">One database</text>
+<line x1="158" y1="166" x2="158" y2="178.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="158,184 161.6,176.5 154.4,176.5" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="328" y="18" width="384" height="240" rx="9" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="340" y="10.1" width="82.5" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="346" y="21.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5FA8" text-anchor="start">Microservices</text>
+<rect x="430" y="40" width="180" height="38" rx="7" fill="#13294B" stroke="#13294B" stroke-width="1.3"/>
+<text x="520" y="62.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">API gateway</text>
+<rect x="346" y="110" width="104" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="398" y="138" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">User service</text>
+<path d="M353,195 A45,9 0 0 1 443,195 L443,233 A45,9 0 0 1 353,233 Z" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3" stroke-linejoin="round"/>
+<ellipse cx="398" cy="195" rx="45" ry="9" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="398" y="221.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0B4F4A" text-anchor="middle">PostgreSQL</text>
+<line x1="398" y1="162" x2="398" y2="179.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="398,184 400.9,178 395.1,178" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="520" y1="80" x2="402.1" y2="107.1" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="398,108 404.5,109.5 403.2,103.9" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="470" y="110" width="104" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="522" y="138" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Order service</text>
+<path d="M477,195 A45,9 0 0 1 567,195 L567,233 A45,9 0 0 1 477,233 Z" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3" stroke-linejoin="round"/>
+<ellipse cx="522" cy="195" rx="45" ry="9" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="522" y="221.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0B4F4A" text-anchor="middle">MongoDB</text>
+<line x1="522" y1="162" x2="522" y2="179.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="522,184 524.9,178 519.1,178" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="520" y1="80" x2="521.7" y2="103.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="522,108 524.4,101.8 518.7,102.2" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="594" y="110" width="104" height="50" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="646" y="138" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Payment service</text>
+<path d="M601,195 A45,9 0 0 1 691,195 L691,233 A45,9 0 0 1 601,233 Z" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3" stroke-linejoin="round"/>
+<ellipse cx="646" cy="195" rx="45" ry="9" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="646" y="221.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0B4F4A" text-anchor="middle">PostgreSQL</text>
+<line x1="646" y1="162" x2="646" y2="179.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="646,184 648.9,178 643.1,178" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="520" y1="80" x2="641.9" y2="107.1" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="646,108 640.8,103.9 639.5,109.5" fill="#667085" stroke="none" stroke-width="1"/>
+</svg>

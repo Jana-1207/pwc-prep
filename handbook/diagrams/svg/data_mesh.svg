@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="10" width="704" height="44" rx="6" fill="#13294B" stroke="#13294B" stroke-width="1"/>
+<text x="360" y="30" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">Federated computational governance</text>
+<text x="360" y="46" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#C9D5E8" text-anchor="middle">shared rules for security, privacy, quality, naming — enforced automatically by the platform</text>
+<rect x="8" y="72" width="228" height="168" rx="8" fill="#FBFCFD" stroke="#1F5FA8" stroke-width="1.2"/>
+<text x="122" y="94" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Orders domain</text>
+<text x="122" y="110" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">team: order engineering</text>
+<rect x="22" y="124" width="200" height="66" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="122" y="147.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#1F5136" text-anchor="middle">data product: orders_daily</text>
+<text x="122" y="161.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">discoverable · addressable ·</text>
+<text x="122" y="172.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">trustworthy · self-describing</text>
+<text x="122" y="212" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="600" fill="#B5520C" text-anchor="middle">SLA: by 6 AM, 99.9% complete</text>
+<line x1="122" y1="246.2" x2="122" y2="263.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="122,268 124.9,262 119.1,262" fill="#667085" stroke="none" stroke-width="1"/>
+<polygon points="122,242 119.1,248 124.9,248" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="246" y="72" width="228" height="168" rx="8" fill="#FBFCFD" stroke="#1F5FA8" stroke-width="1.2"/>
+<text x="360" y="94" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Payments domain</text>
+<text x="360" y="110" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">team: payments</text>
+<rect x="260" y="124" width="200" height="66" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="360" y="147.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#1F5136" text-anchor="middle">data product: settlements</text>
+<text x="360" y="161.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">discoverable · addressable ·</text>
+<text x="360" y="172.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">trustworthy · self-describing</text>
+<text x="360" y="212" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="600" fill="#B5520C" text-anchor="middle">PII masked, reconciled</text>
+<line x1="360" y1="246.2" x2="360" y2="263.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="360,268 362.9,262 357.1,262" fill="#667085" stroke="none" stroke-width="1"/>
+<polygon points="360,242 357.1,248 362.9,248" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="484" y="72" width="228" height="168" rx="8" fill="#FBFCFD" stroke="#1F5FA8" stroke-width="1.2"/>
+<text x="598" y="94" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Marketing domain</text>
+<text x="598" y="110" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">team: growth</text>
+<rect x="498" y="124" width="200" height="66" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="598" y="147.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#1F5136" text-anchor="middle">data product: campaign_kpis</text>
+<text x="598" y="161.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">discoverable · addressable ·</text>
+<text x="598" y="172.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">trustworthy · self-describing</text>
+<text x="598" y="212" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="600" fill="#B5520C" text-anchor="middle">refreshed hourly</text>
+<line x1="598" y1="246.2" x2="598" y2="263.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="598,268 600.9,262 595.1,262" fill="#667085" stroke="none" stroke-width="1"/>
+<polygon points="598,242 595.1,248 600.9,248" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="8" y="270" width="704" height="50" rx="6" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.2"/>
+<text x="360" y="291" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#0B4F4A" text-anchor="middle">Self-serve data platform</text>
+<text x="360" y="308" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#344054" text-anchor="middle">storage · pipelines · catalog · access control · monitoring — offered as easy, shared tools</text>
+<text x="360" y="336" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#13294B" text-anchor="middle">The four principles: domain ownership · data as a product · self-serve platform · federated governance</text>
+</svg>

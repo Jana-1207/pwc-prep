@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<text x="290" y="31.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="700" fill="#13294B" text-anchor="middle">On-premises</text>
+<text x="410" y="31.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="700" fill="#13294B" text-anchor="middle">DB on a cloud VM</text>
+<text x="530" y="25.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="700" fill="#13294B" text-anchor="middle">Managed DB</text>
+<text x="530" y="38.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="700" fill="#13294B" text-anchor="middle">(RDS / Cloud SQL)</text>
+<text x="650" y="31.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="700" fill="#13294B" text-anchor="middle">Serverless DB</text>
+<text x="10" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Hardware, power, data centre</text>
+<rect x="232" y="54" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="54" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="410" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="472" y="54" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="530" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="592" y="54" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="650" y="72.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<text x="10" y="105.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Operating system install &amp; patches</text>
+<rect x="232" y="87" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="105.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="87" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="410" y="105.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="472" y="87" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="530" y="105.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="592" y="87" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="650" y="105.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<text x="10" y="138.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Database install, patches, upgrades</text>
+<rect x="232" y="120" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="138.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="120" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="410" y="138.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="472" y="120" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="530" y="138.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="592" y="120" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="650" y="138.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<text x="10" y="171.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Backups, replication, failover</text>
+<rect x="232" y="153" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="171.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="153" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="410" y="171.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="472" y="153" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="530" y="171.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="592" y="153" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="650" y="171.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<text x="10" y="204.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Capacity planning &amp; scaling</text>
+<rect x="232" y="186" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="204.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="186" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="410" y="204.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="472" y="186" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="530" y="204.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<rect x="592" y="186" width="116" height="29" rx="4" fill="#DDF2EE" stroke="none" stroke-width="0"/>
+<text x="650" y="204.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#0F766E" text-anchor="middle">Provider</text>
+<text x="10" y="237.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="start">Schema, queries, indexes, access</text>
+<rect x="232" y="219" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="290" y="237.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="352" y="219" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="410" y="237.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="472" y="219" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="530" y="237.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<rect x="592" y="219" width="116" height="29" rx="4" fill="#FFE9D6" stroke="none" stroke-width="0"/>
+<text x="650" y="237.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#B5520C" text-anchor="middle">You</text>
+<text x="10" y="272" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="start" font-style="italic">Moving right = you manage less infrastructure and focus more on data and queries.</text>
+</svg>

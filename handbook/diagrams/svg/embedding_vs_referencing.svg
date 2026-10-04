@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 310" width="720" height="310" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="6" y="14" width="344" height="288" rx="9" fill="#FFFFFF" stroke="#2F855A" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="18" y="6.1" width="280" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="24" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#2F855A" text-anchor="start">Embedding — data that is read together lives together</text>
+<rect x="24" y="38" width="308" height="236" rx="6" fill="#FFFFFF" stroke="#2F855A" stroke-width="1.2"/>
+<text x="36" y="58" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">{</text>
+<text x="36" y="74.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "_id": 101,</text>
+<text x="36" y="91" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "customer": "Aarav Patel",</text>
+<text x="36" y="107.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "order_date": "2024-01-05",</text>
+<text x="36" y="124" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "items": [</text>
+<text x="36" y="140.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">    {"product": "Wireless Mouse",</text>
+<text x="36" y="157" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">     "qty": 2, "price": 799},</text>
+<text x="36" y="173.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">    {"product": "Notebook Pack",</text>
+<text x="36" y="190" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">     "qty": 5, "price": 249}</text>
+<text x="36" y="206.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  ],</text>
+<text x="36" y="223" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "ship_to": {"city": "Mumbai",</text>
+<text x="36" y="239.5" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">              "pin": "400001"}</text>
+<text x="36" y="256" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">}</text>
+<text x="178" y="292" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#2F7A4D" text-anchor="middle">one read returns the whole order</text>
+<rect x="370" y="14" width="344" height="288" rx="9" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="382" y="6.1" width="187.6" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="388" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1F5FA8" text-anchor="start">Referencing — store an id, look it up</text>
+<rect x="388" y="38" width="150" height="112" rx="6" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.2"/>
+<text x="396" y="56" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#6B7280" text-anchor="start">// customers</text>
+<text x="396" y="72" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">{</text>
+<text x="396" y="88" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "_id": 1,</text>
+<text x="396" y="104" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "name": "Aarav Patel",</text>
+<text x="396" y="120" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "email": "aarav@mail.com"</text>
+<text x="396" y="136" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">}</text>
+<rect x="548" y="150" width="150" height="112" rx="6" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.2"/>
+<text x="556" y="168" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#6B7280" text-anchor="start">// orders</text>
+<text x="556" y="184" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">{</text>
+<text x="556" y="200" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "_id": 101,</text>
+<text x="556" y="216" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "customer_id": 1,</text>
+<text x="556" y="232" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">  "total": 2843</text>
+<text x="556" y="248" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="400" fill="#1D2939" text-anchor="start">}</text>
+<path d="M548,216 L378,216 L378,88 L381.8,88" fill="none" stroke="#B5520C" stroke-width="1.6" stroke-linejoin="round"/>
+<polygon points="386,88 380,85.1 380,90.9" fill="#B5520C" stroke="none" stroke-width="1"/>
+<text x="384" y="232" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="600" fill="#B5520C" text-anchor="start">customer_id points to _id</text>
+<text x="520" y="292" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#1F5FA8" text-anchor="middle">no duplication; needs a 2nd query or $lookup</text>
+</svg>

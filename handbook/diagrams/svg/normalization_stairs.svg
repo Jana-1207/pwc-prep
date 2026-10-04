@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="14" y="150" width="168" height="90" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="98" y="176" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#13294B" text-anchor="middle">1NF</text>
+<text x="98" y="200" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">one value per cell</text>
+<text x="98" y="214" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">no repeating groups</text>
+<text x="98" y="228" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">rows identified by a key</text>
+<rect x="190" y="112" width="168" height="128" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="274" y="138" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#13294B" text-anchor="middle">2NF</text>
+<text x="274" y="162" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">1NF +</text>
+<text x="274" y="176" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">no partial dependency</text>
+<text x="274" y="190" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">(every non-key column needs</text>
+<text x="274" y="204" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">the WHOLE composite key)</text>
+<rect x="366" y="74" width="168" height="166" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="450" y="100" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#13294B" text-anchor="middle">3NF</text>
+<text x="450" y="124" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">2NF +</text>
+<text x="450" y="138" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">no transitive dependency</text>
+<text x="450" y="152" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">(non-key columns depend only</text>
+<text x="450" y="166" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#344054" text-anchor="middle">on the key, not on each other)</text>
+<rect x="542" y="36" width="168" height="204" rx="7" fill="#13294B" stroke="#13294B" stroke-width="1.3"/>
+<text x="626" y="62" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle">BCNF</text>
+<text x="626" y="86" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#C9D5E8" text-anchor="middle">3NF made stricter:</text>
+<text x="626" y="100" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#C9D5E8" text-anchor="middle">every determinant</text>
+<text x="626" y="114" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="400" fill="#C9D5E8" text-anchor="middle">is a candidate key</text>
+<line x1="30" y1="22" x2="684.8" y2="22" stroke="#B5520C" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="690,22 682.5,18.4 682.5,25.6" fill="#B5520C" stroke="none" stroke-width="1"/>
+<text x="360" y="15.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="500" fill="#344054" text-anchor="middle">each step removes one kind of redundancy → fewer update, insert and delete anomalies</text>
+<text x="360" y="256" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle" font-style="italic">In practice most OLTP designs aim for 3NF.</text>
+</svg>

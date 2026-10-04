@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="6" y="14" width="344" height="268" rx="9" fill="#FFFFFF" stroke="#B42318" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="18" y="6.1" width="212.5" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="24" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#B42318" text-anchor="start">Centralized: one data team for everyone</text>
+<rect x="22" y="40" width="72" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="58" y="59.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">Sales</text>
+<line x1="58" y1="76" x2="174.5" y2="126.5" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,128 174,123.4 171.9,128.2" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="102" y="40" width="72" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="138" y="59.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">Orders</text>
+<line x1="138" y1="76" x2="175.7" y2="124.9" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,128 176.7,122 172.6,125.3" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="182" y="40" width="72" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="218" y="59.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">Payments</text>
+<line x1="218" y1="76" x2="180.3" y2="124.9" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,128 183.4,125.3 179.3,122" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="262" y="40" width="72" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="298" y="59.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">Marketing</text>
+<line x1="298" y1="76" x2="181.5" y2="126.5" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,128 184.1,128.2 182,123.4" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="108" y="130" width="140" height="54" rx="7" fill="#FEF0EF" stroke="#B42318" stroke-width="1.3"/>
+<text x="178" y="152.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A1A12" text-anchor="middle">Central data team</text>
+<text x="178" y="167.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">queue of requests</text>
+<line x1="178" y1="186" x2="178" y2="211.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="178,216 180.9,210 175.1,210" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="98" y="218" width="160" height="40" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.3"/>
+<text x="178" y="241" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#1D2939" text-anchor="middle">Consumers wait…</text>
+<text x="296" y="160" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="700" fill="#B42318" text-anchor="middle">bottleneck</text>
+<rect x="370" y="14" width="344" height="268" rx="9" fill="#FFFFFF" stroke="#2F7A4D" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="382" y="6.1" width="205.2" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="388" y="17.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#2F7A4D" text-anchor="start">Data mesh: domains own data products</text>
+<rect x="384" y="40" width="100" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="434" y="60" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Orders</text>
+<rect x="384" y="92" width="100" height="46" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="434" y="110.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#1F5136" text-anchor="middle">data product</text>
+<text x="434" y="124.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">orders_daily</text>
+<line x1="434" y1="76" x2="434" y2="86.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="434,90 436.4,85 431.6,85" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="434" y1="140" x2="434" y2="164.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="434,168 436.4,163 431.6,163" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="492" y="40" width="100" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="542" y="60" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Payments</text>
+<rect x="492" y="92" width="100" height="46" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="542" y="110.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#1F5136" text-anchor="middle">data product</text>
+<text x="542" y="124.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">settlements</text>
+<line x1="542" y1="76" x2="542" y2="86.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="542,90 544.4,85 539.6,85" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="542" y1="140" x2="542" y2="164.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="542,168 544.4,163 539.6,163" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="600" y="40" width="100" height="34" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="650" y="60" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#13294B" text-anchor="middle">Marketing</text>
+<rect x="600" y="92" width="100" height="46" rx="7" fill="#EAF7EF" stroke="#2F7A4D" stroke-width="1.3"/>
+<text x="650" y="110.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="600" fill="#1F5136" text-anchor="middle">data product</text>
+<text x="650" y="124.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">campaign_kpis</text>
+<line x1="650" y1="76" x2="650" y2="86.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="650,90 652.4,85 647.6,85" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="650" y1="140" x2="650" y2="164.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="650,168 652.4,163 647.6,163" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="384" y="170" width="316" height="36" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.3"/>
+<text x="542" y="190.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#1D2939" text-anchor="middle">Consumers use products directly (self-service)</text>
+<rect x="384" y="222" width="316" height="40" rx="7" fill="#13294B" stroke="#13294B" stroke-width="1.3"/>
+<text x="542" y="245" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#FFFFFF" text-anchor="middle">Self-serve platform + federated governance</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 290" width="720" height="290" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<path d="M430.0,52 L430.0,68 L190,68 L190,84" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M430.0,52 L430.0,68 L390.0,68 L390.0,84" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M430.0,52 L430.0,68 L510,68 L510,84" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M430.0,52 L430.0,68 L590,68 L590,84" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M430.0,52 L430.0,68 L670,68 L670,84" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M190,122 L190,138 L110,138 L110,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M190,122 L190,138 L190,138 L190,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M190,122 L190,138 L270,138 L270,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M390.0,122 L390.0,138 L350,138 L350,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M390.0,122 L390.0,138 L430,138 L430,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M510,122 L510,138 L510,138 L510,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M590,122 L590,138 L590,138 L590,154" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<path d="M110,192 L110,208 L110,208 L110,224" fill="none" stroke="#98A2B3" stroke-width="1.2" stroke-linejoin="round"/>
+<rect x="392" y="14" width="76" height="38" rx="7" fill="#13294B" stroke="#13294B" stroke-width="1.3"/>
+<text x="430" y="29.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="middle">Arjun</text>
+<text x="430" y="43.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#C9D5E8" text-anchor="middle">emp_id 1</text>
+<rect x="152" y="84" width="76" height="38" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="190" y="99.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Priya</text>
+<text x="190" y="113.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 2</text>
+<rect x="352" y="84" width="76" height="38" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="390" y="99.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Ananya</text>
+<text x="390" y="113.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 6</text>
+<rect x="472" y="84" width="76" height="38" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="510" y="99.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Rohan</text>
+<text x="510" y="113.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 9</text>
+<rect x="552" y="84" width="76" height="38" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="590" y="99.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Aditya</text>
+<text x="590" y="113.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 11</text>
+<rect x="632" y="84" width="76" height="38" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="670" y="99.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">Farhan</text>
+<text x="670" y="113.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 13</text>
+<rect x="72" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="110" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Rahul</text>
+<text x="110" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 3</text>
+<rect x="152" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="190" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Sneha</text>
+<text x="190" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 4</text>
+<rect x="232" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="270" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Vikram</text>
+<text x="270" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 5</text>
+<rect x="312" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="350" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Karan</text>
+<text x="350" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 7</text>
+<rect x="392" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="430" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Meera</text>
+<text x="430" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 8</text>
+<rect x="472" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="510" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Divya</text>
+<text x="510" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 10</text>
+<rect x="552" y="154" width="76" height="38" rx="7" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.3"/>
+<text x="590" y="169.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#344054" text-anchor="middle">Neha</text>
+<text x="590" y="183.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 12</text>
+<rect x="72" y="224" width="76" height="38" rx="7" fill="#FFF8E6" stroke="#C27803" stroke-width="1.3"/>
+<text x="110" y="239.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A4B02" text-anchor="middle">Pooja</text>
+<text x="110" y="253.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">emp_id 14</text>
+<text x="8" y="38" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#B5520C" text-anchor="start">level 1</text>
+<text x="8" y="108" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#B5520C" text-anchor="start">level 2</text>
+<text x="8" y="178" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#B5520C" text-anchor="start">level 3</text>
+<text x="8" y="248" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#B5520C" text-anchor="start">level 4</text>
+</svg>

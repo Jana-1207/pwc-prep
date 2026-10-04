@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="10" width="348" height="148" rx="8" fill="#FBFCFD" stroke="#C8D1DD" stroke-width="1"/>
+<text x="20" y="32" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">1. File transfer</text>
+<text x="20" y="48" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">export a file, the other side imports it</text>
+<text x="20" y="148" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#B5520C" text-anchor="start">nightly · simple · stale data</text>
+<rect x="24" y="72" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="64" y="97.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App A</text>
+<rect x="260" y="72" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="300" y="97.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App B</text>
+<rect x="148" y="74" width="68" height="40" rx="3" fill="#FFFFFF" stroke="#98A2B3" stroke-width="1"/>
+<text x="182" y="98" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.6" font-weight="500" fill="#344054" text-anchor="middle">orders.csv</text>
+<line x1="106" y1="94" x2="141.8" y2="94" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="146,94 140,91.1 140,96.9" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="218" y1="94" x2="253.8" y2="94" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="258,94 252,91.1 252,96.9" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="364" y="10" width="348" height="148" rx="8" fill="#FBFCFD" stroke="#C8D1DD" stroke-width="1"/>
+<text x="376" y="32" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">2. Shared database</text>
+<text x="376" y="48" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">both apps read/write the same tables</text>
+<text x="376" y="148" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#B5520C" text-anchor="start">easy start · tight coupling</text>
+<rect x="380" y="72" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="420" y="97.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App A</text>
+<rect x="616" y="72" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="656" y="97.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App B</text>
+<path d="M502,73.6 A36,9.6 0 0 1 574,73.6 L574,114.4 A36,9.6 0 0 1 502,114.4 Z" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3" stroke-linejoin="round"/>
+<ellipse cx="538" cy="73.6" rx="36" ry="9.6" fill="#E7F6F3" stroke="#0F766E" stroke-width="1.3"/>
+<text x="538" y="102" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#0B4F4A" text-anchor="middle">DB</text>
+<line x1="466.2" y1="94" x2="495.8" y2="94" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="500,94 494,91.1 494,96.9" fill="#475467" stroke="none" stroke-width="1"/>
+<polygon points="462,94 468,96.9 468,91.1" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="580.2" y1="94" x2="609.8" y2="94" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="614,94 608,91.1 608,96.9" fill="#475467" stroke="none" stroke-width="1"/>
+<polygon points="576,94 582,96.9 582,91.1" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="8" y="166" width="348" height="148" rx="8" fill="#FBFCFD" stroke="#C8D1DD" stroke-width="1"/>
+<text x="20" y="188" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">3. Remote call (API)</text>
+<text x="20" y="204" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">app A calls app B and waits for a reply</text>
+<text x="20" y="304" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#B5520C" text-anchor="start">real time · both must be up</text>
+<rect x="24" y="228" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="64" y="253.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App A</text>
+<rect x="260" y="228" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="300" y="253.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App B</text>
+<line x1="106" y1="242" x2="253.8" y2="242" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="258,242 252,239.1 252,244.9" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="162.7" y="228" width="38.6" height="14" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="182" y="238.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="500" fill="#344054" text-anchor="middle">request</text>
+<line x1="258" y1="260" x2="110.2" y2="260" stroke="#475467" stroke-width="1.4" stroke-dasharray="4 3" stroke-linecap="round"/>
+<polygon points="106,260 112,262.9 112,257.1" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="168.4" y="263" width="27.1" height="14" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="182" y="273.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="500" fill="#344054" text-anchor="middle">reply</text>
+<rect x="364" y="166" width="348" height="148" rx="8" fill="#FBFCFD" stroke="#C8D1DD" stroke-width="1"/>
+<text x="376" y="188" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="start">4. Messaging</text>
+<text x="376" y="204" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="start">app A sends a message to a queue/topic</text>
+<text x="376" y="304" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="600" fill="#B5520C" text-anchor="start">decoupled · reliable · async</text>
+<rect x="380" y="228" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="420" y="253.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App A</text>
+<rect x="616" y="228" width="80" height="44" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="656" y="253.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#13294B" text-anchor="middle">App B</text>
+<rect x="496" y="234" width="84" height="32" rx="4" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.2"/>
+<rect x="502" y="240" width="15" height="20" rx="2" fill="#F2B37A" stroke="#B5520C" stroke-width="0.8"/>
+<rect x="521" y="240" width="15" height="20" rx="2" fill="#F2B37A" stroke="#B5520C" stroke-width="0.8"/>
+<rect x="540" y="240" width="15" height="20" rx="2" fill="#F2B37A" stroke="#B5520C" stroke-width="0.8"/>
+<rect x="559" y="240" width="15" height="20" rx="2" fill="#F2B37A" stroke="#B5520C" stroke-width="0.8"/>
+<line x1="462" y1="250" x2="489.8" y2="250" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="494,250 488,247.1 488,252.9" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="582" y1="250" x2="609.8" y2="250" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="614,250 608,247.1 608,252.9" fill="#475467" stroke="none" stroke-width="1"/>
+</svg>

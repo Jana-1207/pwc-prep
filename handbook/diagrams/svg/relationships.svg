@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<text x="14" y="40" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12.5" font-weight="700" fill="#13294B" text-anchor="start">One-to-one</text>
+<text x="14" y="58" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#B5520C" text-anchor="start">1 : 1</text>
+<text x="14" y="79.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">each user has exactly</text>
+<text x="14" y="91.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">one profile</text>
+<text x="14" y="160" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12.5" font-weight="700" fill="#13294B" text-anchor="start">One-to-many</text>
+<text x="14" y="178" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#B5520C" text-anchor="start">1 : N</text>
+<text x="14" y="199.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">one customer places</text>
+<text x="14" y="211.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">many orders</text>
+<text x="14" y="280" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12.5" font-weight="700" fill="#13294B" text-anchor="start">Many-to-many</text>
+<text x="14" y="298" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#B5520C" text-anchor="start">M : N</text>
+<text x="14" y="319.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">students take many courses;</text>
+<text x="14" y="331.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="start">courses have many students</text>
+<rect x="220" y="18" width="150" height="62" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M220,42 L220,23 Q220,18 225,18 L365,18 Q370,18 370,23 L370,42 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="295" y="34.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">users</text>
+<text x="228" y="54.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">user_id</text>
+<rect x="347.3" y="46" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="355.6" y="54.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="220" y1="61" x2="370" y2="61" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="228" y="73.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">name</text>
+<rect x="480" y="18" width="180" height="81" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M480,42 L480,23 Q480,18 485,18 L655,18 Q660,18 660,23 L660,42 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="570" y="34.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">user_profiles</text>
+<text x="488" y="54.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">user_id</text>
+<rect x="637.3" y="46" width="16.7" height="11" rx="2.5" fill="#E3EEFC" stroke="none" stroke-width="0"/>
+<text x="645.6" y="54.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#1F5FA8" text-anchor="middle">FK</text>
+<rect x="617.5" y="46" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="625.9" y="54.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="480" y1="61" x2="660" y2="61" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="488" y="73.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">bio</text>
+<line x1="480" y1="80" x2="660" y2="80" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="488" y="92.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">photo_url</text>
+<line x1="370" y1="51.5" x2="480" y2="51.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<text x="380" y="46.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">1</text>
+<text x="470" y="46.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">1</text>
+<rect x="220" y="138" width="150" height="62" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M220,162 L220,143 Q220,138 225,138 L365,138 Q370,138 370,143 L370,162 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="295" y="154.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">customers</text>
+<text x="228" y="174.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">customer_id</text>
+<rect x="347.3" y="166" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="355.6" y="174.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="220" y1="181" x2="370" y2="181" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="228" y="193.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">name</text>
+<rect x="480" y="138" width="180" height="81" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M480,162 L480,143 Q480,138 485,138 L655,138 Q660,138 660,143 L660,162 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="570" y="154.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">orders</text>
+<text x="488" y="174.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">order_id</text>
+<rect x="637.3" y="166" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="645.6" y="174.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="480" y1="181" x2="660" y2="181" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="488" y="193.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">customer_id</text>
+<rect x="637.3" y="185" width="16.7" height="11" rx="2.5" fill="#E3EEFC" stroke="none" stroke-width="0"/>
+<text x="645.6" y="193.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#1F5FA8" text-anchor="middle">FK</text>
+<line x1="480" y1="200" x2="660" y2="200" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="488" y="212.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">amount</text>
+<path d="M370,171.5 L425,171.5 L425,190.5 L475.4,190.5" fill="none" stroke="#475467" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="480,190.5 473.5,187.4 473.5,193.6" fill="#475467" stroke="none" stroke-width="1"/>
+<text x="380" y="166.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">1</text>
+<text x="466" y="185.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">N</text>
+<rect x="220" y="258" width="130" height="62" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M220,282 L220,263 Q220,258 225,258 L345,258 Q350,258 350,263 L350,282 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="285" y="274.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">students</text>
+<text x="228" y="294.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">student_id</text>
+<rect x="327.3" y="286" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="335.6" y="294.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="220" y1="301" x2="350" y2="301" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="228" y="313.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">name</text>
+<rect x="395" y="258" width="170" height="81" rx="5" fill="#FFFFFF" stroke="#B5520C" stroke-width="1.3"/>
+<path d="M395,282 L395,263 Q395,258 400,258 L560,258 Q565,258 565,263 L565,282 Z" fill="#B5520C" stroke="#B5520C" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="480" y="274.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">enrollments</text>
+<text x="403" y="294.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">student_id</text>
+<rect x="542.3" y="286" width="16.7" height="11" rx="2.5" fill="#E3EEFC" stroke="none" stroke-width="0"/>
+<text x="550.6" y="294.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#1F5FA8" text-anchor="middle">FK</text>
+<rect x="522.5" y="286" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="530.9" y="294.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="395" y1="301" x2="565" y2="301" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="403" y="313.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">course_id</text>
+<rect x="542.3" y="305" width="16.7" height="11" rx="2.5" fill="#E3EEFC" stroke="none" stroke-width="0"/>
+<text x="550.6" y="313.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#1F5FA8" text-anchor="middle">FK</text>
+<rect x="522.5" y="305" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="530.9" y="313.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="395" y1="320" x2="565" y2="320" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="403" y="332.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">enrolled_on</text>
+<rect x="600" y="258" width="112" height="62" rx="5" fill="#FFFFFF" stroke="#1F5FA8" stroke-width="1.3"/>
+<path d="M600,282 L600,263 Q600,258 605,258 L707,258 Q712,258 712,263 L712,282 Z" fill="#1F5FA8" stroke="#1F5FA8" stroke-width="1.3" stroke-linejoin="round"/>
+<text x="656" y="274.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">courses</text>
+<text x="608" y="294.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="600" fill="#1D2939" text-anchor="start">course_id</text>
+<rect x="689.3" y="286" width="16.7" height="11" rx="2.5" fill="#FFF1E3" stroke="none" stroke-width="0"/>
+<text x="697.6" y="294.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="7.6" font-weight="700" fill="#B5520C" text-anchor="middle">PK</text>
+<line x1="600" y1="301" x2="712" y2="301" stroke="#E4E7EC" stroke-width="0.8" stroke-linecap="round"/>
+<text x="608" y="313.9" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="10.2" font-weight="400" fill="#1D2939" text-anchor="start">title</text>
+<line x1="350" y1="291.5" x2="395" y2="291.5" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<text x="358" y="286.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">1</text>
+<text x="386" y="286.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">N</text>
+<path d="M600,291.5 L583,291.5 L583,310.5 L569.2,310.5" fill="none" stroke="#475467" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="565,310.5 571,313.4 571,307.6" fill="#475467" stroke="none" stroke-width="1"/>
+<text x="593" y="286.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">1</text>
+<text x="574" y="323.5" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="700" fill="#B5520C" text-anchor="middle">N</text>
+<text x="480" y="352" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="500" fill="#7A3608" text-anchor="middle" font-style="italic">junction (bridge) table</text>
+</svg>

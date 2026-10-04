@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="110" width="136" height="92" rx="7" fill="#EAF2FB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="76" y="140.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12.5" font-weight="600" fill="#13294B" text-anchor="middle">Salesforce</text>
+<text x="76" y="155.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">CRM: Accounts,</text>
+<text x="76" y="167.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">Contacts,</text>
+<text x="76" y="179.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle">Opportunities</text>
+<rect x="186" y="26" width="150" height="70" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="261" y="57" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A3608" text-anchor="middle">REST / Bulk API</text>
+<text x="261" y="71.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">scheduled extracts</text>
+<line x1="146" y1="156" x2="182.4" y2="64.9" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="184,61 179.1,65.5 184.4,67.6" fill="#667085" stroke="none" stroke-width="1"/>
+<line x1="338" y1="61" x2="378.3" y2="152.2" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="380,156 380.2,149.3 374.9,151.7" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="186" y="118" width="150" height="70" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="261" y="149" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A3608" text-anchor="middle">Change Data Capture</text>
+<text x="261" y="163.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">near real-time events</text>
+<line x1="146" y1="156" x2="179.8" y2="153.3" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="184,153 177.8,150.6 178.2,156.3" fill="#667085" stroke="none" stroke-width="1"/>
+<line x1="338" y1="153" x2="375.8" y2="155.7" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="380,156 374.2,152.7 373.8,158.4" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="186" y="210" width="150" height="70" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="261" y="235.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11" font-weight="600" fill="#7A3608" text-anchor="middle">ELT tool</text>
+<text x="261" y="249.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">Fivetran, MuleSoft,</text>
+<text x="261" y="261.3" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.8" font-weight="400" fill="#5B6575" text-anchor="middle">Informatica, ADF</text>
+<line x1="146" y1="156" x2="182.4" y2="241.1" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="184,245 184.3,238.4 179,240.6" fill="#667085" stroke="none" stroke-width="1"/>
+<line x1="338" y1="245" x2="378.2" y2="159.8" stroke="#667085" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="380,156 374.8,160.2 380,162.7" fill="#667085" stroke="none" stroke-width="1"/>
+<rect x="382" y="30" width="210" height="252" rx="9" fill="#FFFFFF" stroke="#6941C6" stroke-width="1.1" stroke-dasharray="5 4"/>
+<rect x="394" y="22.1" width="119.9" height="15.8" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="400" y="33.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#6941C6" text-anchor="start">Cloud data warehouse</text>
+<rect x="398" y="56" width="178" height="46" rx="7" fill="#F8F9FB" stroke="#98A2B3" stroke-width="1.3"/>
+<text x="487" y="75.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#344054" text-anchor="middle">Staging (raw copy)</text>
+<text x="487" y="89.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.4" font-weight="400" fill="#5B6575" text-anchor="middle">sf_account, sf_opportunity</text>
+<rect x="398" y="128" width="178" height="46" rx="7" fill="#FFF4E6" stroke="#B5520C" stroke-width="1.3"/>
+<text x="487" y="147" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#7A3608" text-anchor="middle">Transform (SQL / dbt)</text>
+<text x="487" y="161.2" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">clean · dedupe · join</text>
+<rect x="398" y="200" width="178" height="54" rx="7" fill="#F2EDFC" stroke="#6941C6" stroke-width="1.3"/>
+<text x="487" y="217.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10.5" font-weight="600" fill="#3E1F8C" text-anchor="middle">Analytics models</text>
+<text x="487" y="231.6" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">fact_opportunity,</text>
+<text x="487" y="242.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">dim_account</text>
+<line x1="487" y1="104" x2="487" y2="121.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="487,126 489.9,120 484.1,120" fill="#475467" stroke="none" stroke-width="1"/>
+<line x1="487" y1="176" x2="487" y2="193.8" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="487,198 489.9,192 484.1,192" fill="#475467" stroke="none" stroke-width="1"/>
+<rect x="614" y="120" width="98" height="70" rx="7" fill="#F2F4F7" stroke="#667085" stroke-width="1.3"/>
+<text x="663" y="140.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="11.5" font-weight="600" fill="#1D2939" text-anchor="middle">BI</text>
+<text x="663" y="154.7" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">pipeline,</text>
+<text x="663" y="165.8" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">win-rate</text>
+<text x="663" y="177" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="8.6" font-weight="400" fill="#5B6575" text-anchor="middle">dashboards</text>
+<line x1="578" y1="227" x2="609.8" y2="173.6" stroke="#475467" stroke-width="1.4" stroke-linecap="round"/>
+<polygon points="612,170 606.5,173.7 611.4,176.6" fill="#475467" stroke="none" stroke-width="1"/>
+<path d="M487,284 L487,316 L76,316 L76,208.2" fill="none" stroke="#B5520C" stroke-width="1.4" stroke-dasharray="5 4" stroke-linejoin="round"/>
+<polygon points="76,204 73.1,210 78.9,210" fill="#B5520C" stroke="none" stroke-width="1"/>
+<rect x="179.3" y="306.9" width="204.4" height="14.2" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="281.5" y="317.1" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="500" fill="#344054" text-anchor="middle">reverse ETL: push scores back into Salesforce</text>
+</svg>

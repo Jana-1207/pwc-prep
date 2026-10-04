@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<path d="M300,58 L92,300 L508,300 Z" fill="#F7F9FB" stroke="#98A2B3" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="300" cy="58" r="24" fill="#13294B" stroke="#13294B" stroke-width="1"/>
+<text x="300" y="65" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">C</text>
+<circle cx="92" cy="300" r="24" fill="#13294B" stroke="#13294B" stroke-width="1"/>
+<text x="92" y="307" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">A</text>
+<circle cx="508" cy="300" r="24" fill="#13294B" stroke="#13294B" stroke-width="1"/>
+<text x="508" y="307" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">P</text>
+<text x="300" y="22" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Consistency</text>
+<text x="300" y="98" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="middle">every read sees the latest write</text>
+<text x="92" y="342" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Availability</text>
+<text x="92" y="357" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="middle">every request gets a response</text>
+<text x="508" y="342" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">Partition tolerance</text>
+<text x="508" y="357" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.2" font-weight="400" fill="#5B6575" text-anchor="middle">keeps working if the network splits</text>
+<rect x="104.8" y="150.5" width="106.3" height="51" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="158" y="161.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">CA</text>
+<text x="158" y="173.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">single-node RDBMS</text>
+<text x="158" y="185.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">(no network partition</text>
+<text x="158" y="197.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">to tolerate)</text>
+<rect x="390.4" y="150.5" width="111.1" height="51" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="446" y="161.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">CP</text>
+<text x="446" y="173.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">MongoDB*, HBase,</text>
+<text x="446" y="185.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">etcd, ZooKeeper</text>
+<text x="446" y="197.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">(may refuse requests)</text>
+<rect x="154.8" y="292.5" width="290.4" height="15" rx="3" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<text x="300" y="303.4" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.6" font-weight="500" fill="#344054" text-anchor="middle">AP — Cassandra, DynamoDB*, CouchDB (may return stale data)</text>
+<text x="300" y="376" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9" font-weight="400" fill="#5B6575" text-anchor="middle" font-style="italic">* default settings — most modern databases let you tune consistency per query.</text>
+</svg>

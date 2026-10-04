@@ -1,0 +1,4 @@
+# build intermediates (the final PDF at the repo root is committed)
+handbook/build/
+__pycache__/
+*.pyc

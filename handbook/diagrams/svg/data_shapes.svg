@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" width="720" height="230" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<rect x="8" y="12" width="228" height="206" rx="8" fill="#FFFFFF" stroke="#0F766E" stroke-width="1.2"/>
+<text x="122" y="36" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="13" font-weight="700" fill="#0B4F4A" text-anchor="middle">Structured</text>
+<text x="122" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="middle">fixed rows &amp; columns</text>
+<rect x="248" y="12" width="228" height="206" rx="8" fill="#FFFFFF" stroke="#C27803" stroke-width="1.2"/>
+<text x="362" y="36" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="13" font-weight="700" fill="#7A4B02" text-anchor="middle">Semi-structured</text>
+<text x="362" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="middle">self-describing tags/keys</text>
+<rect x="488" y="12" width="228" height="206" rx="8" fill="#FFFFFF" stroke="#6941C6" stroke-width="1.2"/>
+<text x="602" y="36" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="13" font-weight="700" fill="#3E1F8C" text-anchor="middle">Unstructured</text>
+<text x="602" y="53" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="400" fill="#5B6575" text-anchor="middle">no predefined model</text>
+<rect x="30" y="72" width="60" height="24" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="60" y="88" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">id</text>
+<rect x="90" y="72" width="60" height="24" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="120" y="88" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">name</text>
+<rect x="150" y="72" width="60" height="24" rx="0" fill="#E9EEF5" stroke="#C8D1DD" stroke-width="0.8"/>
+<text x="180" y="88" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="600" fill="#13294B" text-anchor="middle">salary</text>
+<rect x="30" y="96" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="60" y="112" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">1</text>
+<rect x="90" y="96" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="120" y="112" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Asha</text>
+<rect x="150" y="96" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="180" y="112" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">65000</text>
+<rect x="30" y="120" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="60" y="136" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">2</text>
+<rect x="90" y="120" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="120" y="136" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Ravi</text>
+<rect x="150" y="120" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="180" y="136" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">72000</text>
+<rect x="30" y="144" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="60" y="160" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">3</text>
+<rect x="90" y="144" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="120" y="160" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">Neha</text>
+<rect x="150" y="144" width="60" height="24" rx="0" fill="#FFFFFF" stroke="#D9DFE7" stroke-width="0.8"/>
+<text x="180" y="160" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9.4" font-weight="400" fill="#1D2939" text-anchor="middle">58000</text>
+<text x="122" y="200" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#344054" text-anchor="middle">SQL tables, spreadsheets</text>
+<text x="268" y="84" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">{ "id": 7,</text>
+<text x="268" y="101" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "name": "Asha",</text>
+<text x="268" y="118" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "skills": ["SQL",</text>
+<text x="268" y="135" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">             "Python"],</text>
+<text x="268" y="152" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">  "address": {</text>
+<text x="268" y="169" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="9" font-weight="400" fill="#1D2939" text-anchor="start">    "city": "Pune" } }</text>
+<text x="362" y="200" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#344054" text-anchor="middle">JSON, XML, logs, emails</text>
+<rect x="500" y="70" width="44" height="50" rx="4" fill="#F2EDFC" stroke="#6941C6" stroke-width="1"/>
+<text x="522" y="100" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#3E1F8C" text-anchor="middle">IMG</text>
+<text x="550" y="100" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.4" font-weight="400" fill="#5B6575" text-anchor="start">photo.jpg</text>
+<rect x="604" y="70" width="44" height="50" rx="4" fill="#F2EDFC" stroke="#6941C6" stroke-width="1"/>
+<text x="626" y="100" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#3E1F8C" text-anchor="middle">PDF</text>
+<text x="654" y="100" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.4" font-weight="400" fill="#5B6575" text-anchor="start">invoice.pdf</text>
+<rect x="500" y="134" width="44" height="50" rx="4" fill="#F2EDFC" stroke="#6941C6" stroke-width="1"/>
+<text x="522" y="164" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#3E1F8C" text-anchor="middle">MP3</text>
+<text x="550" y="164" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.4" font-weight="400" fill="#5B6575" text-anchor="start">call.mp3</text>
+<rect x="604" y="134" width="44" height="50" rx="4" fill="#F2EDFC" stroke="#6941C6" stroke-width="1"/>
+<text x="626" y="164" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="700" fill="#3E1F8C" text-anchor="middle">TXT</text>
+<text x="654" y="164" font-family="Plex Mono, IBM Plex Mono, DejaVu Sans Mono, monospace" font-size="8.4" font-weight="400" fill="#5B6575" text-anchor="start">review.txt</text>
+<text x="602" y="200" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.4" font-weight="600" fill="#344054" text-anchor="middle">images, video, audio, PDFs</text>
+</svg>

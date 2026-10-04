@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 410" width="720" height="410" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif">
+<circle cx="93" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<circle cx="147" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path d="M120.0,35.5 A47,47 0 0 1 120.0,112.5 A47,47 0 0 1 120.0,35.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="93" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<circle cx="147" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<text x="73" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">A</text>
+<text x="167" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">B</text>
+<text x="120" y="150" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">INNER JOIN</text>
+<text x="120" y="167" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">only rows that match in both</text>
+<circle cx="333" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<circle cx="387" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path d="M360.0,35.5 A47,47 0 0 1 360.0,112.5 A47,47 0 0 1 360.0,35.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<path d="M360.0,35.5 A47,47 0 1 0 360.0,112.5 A47,47 0 0 1 360.0,35.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="333" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<circle cx="387" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<text x="313" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">A</text>
+<text x="407" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">B</text>
+<text x="360" y="150" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">LEFT JOIN</text>
+<text x="360" y="167" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">all of A + matching rows of B</text>
+<circle cx="573" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<circle cx="627" cy="74" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path d="M600.0,35.5 A47,47 0 0 1 600.0,112.5 A47,47 0 0 1 600.0,35.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<path d="M600.0,35.5 A47,47 0 1 1 600.0,112.5 A47,47 0 0 0 600.0,35.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="573" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<circle cx="627" cy="74" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<text x="553" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">A</text>
+<text x="647" y="79" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">B</text>
+<text x="600" y="150" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">RIGHT JOIN</text>
+<text x="600" y="167" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">all of B + matching rows of A</text>
+<circle cx="93" cy="279" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<circle cx="147" cy="279" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path d="M120.0,240.5 A47,47 0 0 1 120.0,317.5 A47,47 0 0 1 120.0,240.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<path d="M120.0,240.5 A47,47 0 1 0 120.0,317.5 A47,47 0 0 1 120.0,240.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<path d="M120.0,240.5 A47,47 0 1 1 120.0,317.5 A47,47 0 0 0 120.0,240.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="93" cy="279" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<circle cx="147" cy="279" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<text x="73" y="284" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">A</text>
+<text x="167" y="284" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">B</text>
+<text x="120" y="355" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">FULL OUTER JOIN</text>
+<text x="120" y="372" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">everything from A and B</text>
+<circle cx="333" cy="279" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<circle cx="387" cy="279" r="47" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<path d="M360.0,240.5 A47,47 0 1 0 360.0,317.5 A47,47 0 0 1 360.0,240.5 Z" fill="#9DC2EC" stroke="none" stroke-width="0" stroke-linejoin="round"/>
+<circle cx="333" cy="279" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<circle cx="387" cy="279" r="47" fill="none" stroke="#344054" stroke-width="1.4"/>
+<text x="313" y="284" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">A</text>
+<text x="407" y="284" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="14" font-weight="700" fill="#13294B" text-anchor="middle">B</text>
+<text x="360" y="355" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">LEFT JOIN … WHERE B.key IS NULL</text>
+<text x="360" y="372" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">rows of A with NO match (anti-join)</text>
+<rect x="514" y="236" width="40" height="22" rx="7" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="534" y="249.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">a1</text>
+<rect x="514" y="271" width="40" height="22" rx="7" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="534" y="284.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">a2</text>
+<rect x="514" y="306" width="40" height="22" rx="7" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="534" y="319.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">a3</text>
+<rect x="646" y="252" width="40" height="22" rx="7" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="666" y="265.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">b1</text>
+<rect x="646" y="290" width="40" height="22" rx="7" fill="#DCEBFB" stroke="#1F5FA8" stroke-width="1.3"/>
+<text x="666" y="303.9" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="10" font-weight="600" fill="#13294B" text-anchor="middle">b2</text>
+<line x1="554" y1="247" x2="646" y2="263" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<line x1="554" y1="247" x2="646" y2="301" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<line x1="554" y1="282" x2="646" y2="263" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<line x1="554" y1="282" x2="646" y2="301" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<line x1="554" y1="317" x2="646" y2="263" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<line x1="554" y1="317" x2="646" y2="301" stroke="#7A8699" stroke-width="1" stroke-linecap="round"/>
+<text x="600" y="355" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="12" font-weight="700" fill="#13294B" text-anchor="middle">CROSS JOIN</text>
+<text x="600" y="372" font-family="Plex Sans, IBM Plex Sans, DejaVu Sans, sans-serif" font-size="9.8" font-weight="400" fill="#5B6575" text-anchor="middle">every A row × every B row (3 × 2 = 6)</text>
+<line x1="8" y1="198" x2="712" y2="198" stroke="#E4E7EC" stroke-width="1" stroke-linecap="round"/>
+</svg>
