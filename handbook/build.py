@@ -318,7 +318,8 @@ class Renderer:
             n = len(rows)
             more = f" · first {max_rows} shown" if n > max_rows else ""
             foot = f'{n} row{"s" if n != 1 else ""}{more}'
-            tables.append(f'<table class="result"><thead><tr>{head}</tr></thead>'
+            tcls = "result wide7" if len(cols) >= 7 else ("result wide5" if len(cols) >= 5 else "result")
+            tables.append(f'<table class="{tcls}"><thead><tr>{head}</tr></thead>'
                           f'<tbody>{"".join(body)}</tbody></table><div class="out-foot">{foot}</div>')
         return f'<div class="sql-output"><div class="out-head">Output</div>{"".join(tables)}</div>'
 
@@ -489,6 +490,12 @@ def postprocess(soup: BeautifulSoup):
             box = soup.new_tag("span", attrs={"class": "cb" + (" done" if done else "")})
             target.insert(0, box)
 
+    # a short lead-in paragraph ("P3.", "Now try this:") stays on the same page as its code block
+    for cg in soup.find_all("div", class_="codegroup"):
+        prev = cg.find_previous_sibling()
+        if prev is not None and prev.name in ("p", "h4", "h5") and len(prev.get_text()) < 400:
+            prev["class"] = (prev.get("class") or []) + ["keepwith"]
+
     # number headings and build ids
     n = 0
     for h in soup.find_all(["h1", "h2", "h3"]):
@@ -522,6 +529,38 @@ def build_toc(soup: BeautifulSoup) -> str:
     return "<ul class=\"toc-list\">" + "\n".join(items) + "</ul>"
 
 
+def check_javascript(files) -> int:
+    """Syntax-check every ```javascript (mongosh) block with Node, if Node is installed.
+
+    MongoDB examples cannot be executed here, but they can at least be parsed.
+    Shell helpers such as `use shop` are commented out first; a bare document is
+    checked as an expression."""
+    node = shutil.which("node")
+    if node is None:
+        print("node not found: skipping MongoDB shell syntax check")
+        return 0
+    checked = 0
+    work = BUILD_DIR / "jscheck"
+    work.mkdir(parents=True, exist_ok=True)
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        for m in re.finditer(r"^(\s*)```javascript\s*\n(.*?)^\s*```\s*$", text, re.S | re.M):
+            indent = m.group(1)
+            lines = [l[len(indent):] if l.startswith(indent) else l for l in m.group(2).split("\n")]
+            lines = [("// " + l) if re.match(r"^\s*(use|show)\s+\w+", l) else l for l in lines]
+            body = "\n".join(lines)
+            src = f"async function _check(db, ISODate, ObjectId) {{\n{body}\n}}\n"
+            if body.strip().startswith("{") and "db." not in body:
+                src = f"const _doc = (\n{body}\n);\n"
+            checked += 1
+            js = work / f"block_{checked:03d}.js"
+            js.write_text(src, encoding="utf-8")
+            res = subprocess.run([node, "--check", str(js)], capture_output=True, text=True)
+            if res.returncode != 0:
+                raise BuildError(f"[{f.name}] MongoDB shell block has a syntax error:\n{body}\n{res.stderr}")
+    return checked
+
+
 def ensure_fonts():
     """Make the bundled fonts visible to fontconfig (used for SVG text)."""
     target = Path.home() / ".local" / "share" / "fonts" / "handbook"
@@ -551,6 +590,11 @@ def main():
 
     renderer = Renderer(runner)
     files = sorted(CONTENT_DIR.glob("*.md"))
+    try:
+        js_checked = check_javascript(files)
+    except BuildError as exc:
+        sys.exit(str(exc))
+    print(f"syntax-checked {js_checked} MongoDB shell blocks")
     parts = []
     for f in files:
         text = f.read_text(encoding="utf-8")

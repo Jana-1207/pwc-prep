@@ -379,12 +379,13 @@ NoSQL databases relax some relational features (fixed schemas, joins, sometimes 
 - Document stores: **flexible schema**. Documents in the same collection can have different fields.
 
 ```javascript
-// Two products in the same "products" collection
-{ "_id": 1, "name": "ThinkPad E14", "category": "Laptop",
-  "price": 62990, "specs": { "ram_gb": 16, "cpu": "Ryzen 5" } }
-
-{ "_id": 2, "name": "Cotton Tee", "category": "Apparel",
-  "price": 499, "sizes": ["S", "M", "L"], "colour": "navy" }
+// Two products in the same "products" collection, with different fields
+db.products.insertMany([
+  { _id: 1, name: "ThinkPad E14", category: "Laptop",
+    price: 62990, specs: { ram_gb: 16, cpu: "Ryzen 5" } },
+  { _id: 2, name: "Cotton Tee", category: "Apparel",
+    price: 499, sizes: ["S", "M", "L"], colour: "navy" }
+])
 ```
 
 The catch: **"schemaless" does not mean "no design".** The schema moves into your application code. Without discipline you get `"price": "499"` in one document and `"price": 499` in another. MongoDB supports **schema validation** rules to prevent this.

@@ -331,3 +331,8 @@ table { break-inside: avoid; }
 
 .codegroup.long, .codegroup.long .codeblock, .codegroup.long .sql-output { break-inside: auto; }
 pre.code { orphans: 4; widows: 4; }
+
+/* wide SQL outputs: smaller type so they always fit inside the margins */
+table.result.wide5 { font-size: 7.2pt; }
+table.result.wide7 { font-size: 6.4pt; }
+table.result.wide7 th, table.result.wide7 td { padding: 0.6mm 1.3mm; }
