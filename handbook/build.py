@@ -561,6 +561,23 @@ def check_javascript(files) -> int:
     return checked
 
 
+def check_python(files) -> int:
+    """Compile every ```python block (syntax only; the examples are not executed)."""
+    checked = 0
+    for f in files:
+        text = f.read_text(encoding="utf-8")
+        for m in re.finditer(r"^(\s*)```python\s*\n(.*?)^\s*```\s*$", text, re.S | re.M):
+            indent = m.group(1)
+            body = "\n".join(l[len(indent):] if l.startswith(indent) else l
+                             for l in m.group(2).split("\n"))
+            try:
+                compile(body, f"{f.name}:python-block", "exec")
+            except SyntaxError as exc:
+                raise BuildError(f"[{f.name}] Python block has a syntax error: {exc}\n{body}")
+            checked += 1
+    return checked
+
+
 def ensure_fonts():
     """Make the bundled fonts visible to fontconfig (used for SVG text)."""
     target = Path.home() / ".local" / "share" / "fonts" / "handbook"
@@ -595,6 +612,11 @@ def main():
     except BuildError as exc:
         sys.exit(str(exc))
     print(f"syntax-checked {js_checked} MongoDB shell blocks")
+    try:
+        py_checked = check_python(files)
+    except BuildError as exc:
+        sys.exit(str(exc))
+    print(f"syntax-checked {py_checked} Python blocks")
     parts = []
     for f in files:
         text = f.read_text(encoding="utf-8")
