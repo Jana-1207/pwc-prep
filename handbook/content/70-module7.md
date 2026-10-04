@@ -467,7 +467,29 @@ A: No, that's lift-and-shift. Cloud-native means redesigning around managed serv
 "Serverless is great for event-driven and spiky workloads because it removes server management and scales to zero, for example processing uploaded files or running an API with uneven traffic. But it has cold starts, execution limits and can cost more at constant high load, so long-running or steady services are often cheaper on containers. I see the future as a mix: serverless for glue and bursty work, containers and managed databases for the core. The right choice depends on the workload."
 :::
 
+::: trap
+- Repeating hype ("X is the future") without naming the problem X solves.
+- Dismissing a trend outright. Interviewers want balanced judgement, not cynicism.
+- Listing tools instead of trade-offs: cost, skills, complexity, lock-in.
+- Ignoring organisational readiness. People, process and governance matter as much as technology.
+- Claiming hands-on experience with a trend you have only read about.
+:::
+
 ::: questions
+#### Basic
+Q: [WHY] Why do interviewers ask for your opinion on technology trends?
+A: To test judgement: whether you understand the problem a technology solves, its trade-offs and when it is the wrong choice, rather than whether you can repeat buzzwords.
+
+Q: [DEFINITION] What is hype, and how do you spot it?
+A: A claim that a technology fits every situation. You can spot it when the claim names no problem, no trade-off and no condition: "always cheaper", "SQL can't scale", "warehouses are dead".
+
+#### Intermediate
+Q: [HOW] How do you structure an answer to "What do you think about X?"
+A: Define it in one sentence, name the problem it solves, say when it fits (with an example), say when it doesn't (one limitation), then recommend what to do in the situation asked about.
+
+Q: [COMPARISON] Is the lakehouse replacing the data warehouse?
+A: Not entirely. A lakehouse removes the duplicate lake-plus-warehouse copy and suits mixed BI, data science and ML on open table formats; a cloud warehouse remains excellent for structured BI with less engineering effort. Many companies use both, chosen by workload.
+
 #### Scenario-based
 Q: [SCENARIO] A client's CEO read that "data mesh is the future" and wants to start next month. How do you respond?
 A: Acknowledge the goal (faster, domain-owned data), then assess readiness: number of domains, data skills in teams, platform maturity, governance. Propose a pilot with one or two domains on a self-serve platform, with success metrics, rather than a big-bang reorganisation.

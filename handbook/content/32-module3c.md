@@ -441,6 +441,51 @@ Because `orders.customer_id` is a NOT NULL foreign key, every order is guarantee
 - `JOIN … USING (dept_id)` is shorthand when both columns have the same name; the column appears once in the output.
 - Old comma syntax: `FROM employees e, departments d WHERE e.dept_id = d.dept_id` is an inner join written the 1980s way. Explicit `JOIN … ON` is clearer and avoids accidental cross joins.
 
+### Set operations: UNION, UNION ALL, INTERSECT, EXCEPT [INTERVIEW EXTENSION]
+
+Joins put tables **side by side**. Set operations stack query results **on top of each other**. Both queries must return the same number of columns with compatible types; column names come from the first query, and a final `ORDER BY` sorts the combined result.
+
+```sql run
+-- every city where we have an employee OR a customer (duplicates removed)
+SELECT city FROM employees
+UNION
+SELECT city FROM customers
+ORDER BY city;
+```
+
+```sql run
+SELECT 'UNION' AS operation, COUNT(*) AS rows_returned
+FROM (SELECT city FROM employees UNION SELECT city FROM customers) u
+UNION ALL
+SELECT 'UNION ALL', COUNT(*)
+FROM (SELECT city FROM employees UNION ALL SELECT city FROM customers) a;
+```
+
+UNION removed duplicates (9 distinct cities); UNION ALL simply appended all 14 + 7 rows, and is faster because it skips the de-duplication step.
+
+```sql run
+-- cities with both employees and customers
+SELECT city FROM employees
+INTERSECT
+SELECT city FROM customers
+ORDER BY city;
+```
+
+```sql run
+-- customer cities with no employees (rows in the first query that are not in the second)
+SELECT city FROM customers
+EXCEPT
+SELECT city FROM employees
+ORDER BY city;
+```
+
+| Operator | Returns | Duplicates |
+|---|---|---|
+| `UNION` | rows from either query | removed |
+| `UNION ALL` | rows from either query | kept (faster) |
+| `INTERSECT` | rows present in both | removed (`INTERSECT ALL` keeps them) |
+| `EXCEPT` (Oracle: `MINUS`) | rows in the first query but not the second | removed (`EXCEPT ALL` keeps them) |
+
 ::: explain
 "A join combines rows from two tables based on a related column, usually a foreign key and a primary key. An inner join returns only rows that match in both tables. A left join returns every row from the left table plus matching rows from the right, with NULLs where there's no match; that's how I find, for example, customers with no orders, by checking that the order key is NULL. Right join is the mirror image, full outer join keeps unmatched rows from both sides, cross join gives every combination, and a self join joins a table to itself, like employees to their managers. Two things I watch for are duplicate rows when joining one-to-many before summing, and WHERE conditions on the right table that turn a left join into an inner join."
 :::
@@ -480,6 +525,9 @@ A: One-to-many joins duplicate the "one" side's rows (fan-out), so its values ar
 
 Q: [DEFINITION] What does a FULL OUTER JOIN return, and when is it useful?
 A: All rows from both tables, matched where possible and with NULLs otherwise; useful for reconciliation, such as finding records missing on either side.
+
+Q: [COMPARISON] UNION vs UNION ALL?
+A: Both stack the rows of two compatible queries. UNION removes duplicate rows (extra work); UNION ALL keeps every row and is faster, so use it unless you need de-duplication.
 
 Q: [HOW] If table A has 4 rows and B has 3, how many rows can each join return?
 A: CROSS: exactly 12. INNER: 0 to 12, depending on matches. LEFT: at least 4 (up to 12). FULL: at least max(4, 3), at most 12 (or 7 if nothing matches).

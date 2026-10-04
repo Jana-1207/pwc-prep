@@ -16,6 +16,7 @@ You do not need to watch the videos first. Read a session, run through its inter
 | VI | Integration Patterns in the Enterprise | Compare APIs vs queues, pub/sub, event-driven design, ETL vs ELT, batch vs streaming |
 | VII | Modern Trends & Future Directions | Discuss data mesh, serverless and AI-ready data critically, with trade-offs |
 | Final | Final Interview Revision | 100 key questions, a 50-question SQL bank, scenario questions, rapid fire, a one-day revision sheet and an answering strategy |
+| Appendix | Glossary and Coverage Verification | Look up any term in plain English; see how the handbook was checked against its brief |
 
 ## How Every Session Is Built {: .nobreak #session-structure }
 
@@ -27,7 +28,7 @@ Every session follows the same rhythm, so you always know where to look:
 4. **How I Would Explain This in an Interview**: a natural 30–60 second spoken answer.
 5. **Common Traps & Mistakes**: the confusions that cost candidates marks.
 6. **Interview Questions** in four groups (Basic, Intermediate, Scenario-based, Follow-up/Trap), each with a short model answer.
-7. **Practice Questions** at three levels, with the answers kept in a separate **Answer / Explanation** box so you can test yourself first.
+7. **Practice Questions** at three levels at the end of each important topic group, with the answers kept in a separate **Answer / Explanation** box so you can test yourself first.
 8. At the end of each module: a **Module Summary** and a **Rapid Revision Checklist**.
 
 ## Labels You Will See {: .nobreak #labels }
@@ -76,7 +77,7 @@ This handbook was built from the module and topic structure of the Tekstac *Mode
 - Where a module's sessions were described only by topic, the session titles were rebuilt from those topics and are marked **†** in the Course Coverage Map. The topics themselves are all covered; only the exact titles or the split into parts may differ from the videos.
 - Nothing is presented as course content unless it was part of the course topic list. Extra material is labelled [INTERVIEW EXTENSION].
 
-If your course shows a session that is not listed in the coverage map, look it up in the index-like map on the next pages by topic. Every topic from the brief is covered somewhere.
+If your course shows a session that is not listed in the coverage map, look its topic up in the map on the next pages or in the Glossary at the back. Every topic from the brief is covered somewhere.
 
 # Course Coverage Map {: #coverage-map data-label="START HERE" }
 
@@ -188,7 +189,13 @@ If your course shows a session that is not listed in the coverage map, look it u
 | Project Connection | <a class="pageref" href="#f6"></a> |
 | One-Day Revision Sheet | <a class="pageref" href="#f7"></a> |
 | Interview Answering Strategy | <a class="pageref" href="#f8"></a> |
-| Glossary · Coverage Verification | <a class="pageref" href="#glossary"></a> |
+
+<p class="tablecap">Appendix</p>
+
+| Section | Page |
+|---|---|
+| Glossary (162 terms) | <a class="pageref" href="#glossary"></a> |
+| Coverage Verification (self-review against the brief) | <a class="pageref" href="#coverage-check"></a> |
 :::
 
 ::: note Quizzes and practice programs

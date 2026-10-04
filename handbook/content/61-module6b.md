@@ -532,7 +532,29 @@ A: You can for simple reports, but you hit API limits, can't easily join with ot
 "I start with three questions: How fresh does the data need to be? Does the caller need an immediate answer? And how many systems care about this data? If the caller needs an answer now, a synchronous API. If it's background work, a queue. If many systems react, publish an event. For analytics, batch ELT unless the business acts within minutes, in which case CDC or streaming. Then I check volume, failure handling, security and who owns each piece."
 :::
 
+::: trap
+- Naming a technology ("Kafka!") before asking how fresh the data must be, how much there is and who needs it.
+- Choosing streaming for a report that is read once a day.
+- Designing only the happy path: no retries, dead-letter queue, alerting or reconciliation.
+- Forgetting ownership and operations: every broker, connector and pipeline must be run and monitored by someone.
+- Using one pattern for everything. Real systems mix APIs, events and batch.
+:::
+
 ::: questions
+#### Basic
+Q: [COMPARISON] When would you choose a synchronous API over a message queue?
+A: When the caller needs the result now to continue, such as a payment authorization or a stock check. A queue suits work that can finish later, must absorb spikes, or must survive the consumer being down.
+
+Q: [WHY] Why is a shared database a poor way to integrate systems owned by different teams?
+A: It creates hidden coupling: every team depends on the same tables, so one team's schema change can break another's system, and nobody clearly owns the data. An API or event contract gives each team a stable interface instead.
+
+#### Intermediate
+Q: [HOW] Which questions do you ask first when choosing an integration pattern?
+A: How fresh must the data be? Does the caller need an immediate answer? How many systems care about this data? Then volume, failure handling, security and ownership.
+
+Q: [COMPARISON] CDC or a scheduled batch extract to feed a warehouse?
+A: CDC streams every insert, update and delete from the database log within seconds, captures deletes and adds little load on the source, but needs more setup and monitoring. A scheduled extract by `updated_at` is simpler and cheaper, but data arrives on a delay and hard deletes are missed unless handled separately.
+
 #### Scenario-based
 Q: [DESIGN QUESTION] An e-commerce company wants (a) instant stock checks on product pages, (b) order data in the warehouse every hour, and (c) the CRM updated when a customer changes their address. Pick patterns.
 A: (a) A synchronous API backed by a cache; (b) a batch or micro-batch ELT pipeline (or CDC into the warehouse); (c) a `CustomerAddressChanged` event consumed by a CRM integration (or iPaaS), processed idempotently.
